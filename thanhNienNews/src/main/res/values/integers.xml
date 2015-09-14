@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="storydetail_preload_limit">1</integer>
+    <integer name="section_max_cols">3</integer>
+    <integer name="section_video_home_max_cols">2</integer>
+    <integer name="section_video_page_max_cols">2</integer>
+    <integer name="boxcellsize">70</integer>
+    <integer name="outsidepadding">10</integer>
+    <integer name="middlepadding">5</integer>
+	<integer name="newstory_max_length_title">51</integer>
+    <integer name="newstory_max_length_content">501</integer>
+    <integer name="menu_list_item_section_icon_size">40</integer>
+    <integer name="box_textmaxlength_title">127</integer>
+    <integer name="dlg_pnscheck_numberofsection_onpage">4</integer>
+    <integer name="section_category_image_favorite_width">15</integer>
+    <bool name="portrait_only">true</bool>
+    <bool name="istablet">false</bool>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false" >
+
+    <ImageView
+        android:id="@+id/boxview_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:scaleType="centerCrop"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/boxview_ll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@color/background_transparent"
+        android:gravity="center_vertical|right"
+        android:paddingBottom="@dimen/home_padding_box_top"
+        android:paddingRight="@dimen/padding5"
+        android:paddingTop="@dimen/home_padding_box_top" >
+
+        <ImageView
+            android:id="@+id/boxview_video_icon_small_left"
+            android:layout_width="@dimen/menu_row_item_icon_video_size"
+            android:layout_height="@dimen/menu_row_item_icon_video_size"
+            android:layout_marginLeft="@dimen/home_box_icon_margin_left"
+            android:layout_marginRight="@dimen/home_box_icon_margin_right"
+            android:contentDescription="@string/boximage_contentdescription"
+            android:scaleType="fitXY"
+            android:splitMotionEvents="false"
+            android:src="@drawable/play_small" />
+
+        <TextView
+            android:id="@+id/boxview_title"
+            style="@style/video_home_width_height"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingTop="@dimen/home_padding_box_top_txt"
+            android:splitMotionEvents="false"
+            android:text="adgadfadfadfaesdgfdsgsdgsdgsdfgsd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/video_home_box_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/boxview_video_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</merge><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/boxview_videohome.xml -->

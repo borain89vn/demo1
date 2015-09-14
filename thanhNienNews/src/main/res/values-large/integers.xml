@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="section_max_cols">4</integer>
+    <integer name="section_video_page_max_cols">3</integer>
+    <integer name="boxcellsize">135</integer>
+    <integer name="outsidepadding">12</integer>
+    <integer name="middlepadding">12</integer>
+    <integer name="menu_list_item_section_icon_size">64</integer>
+    <bool name="portrait_only">false</bool>
+    <bool name="istablet">true</bool>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gkxim.android.thanhniennews.layout.CheckViewAutoMarquee xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_pnscheck_item_check"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="@dimen/dlg_pnscheck_item_margintop"
+    android:paddingBottom="@dimen/dlg_pnscheck_item_margintop"
+    android:drawableLeft="@drawable/ic_pnscheck_item"
+    android:drawablePadding="20dp"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:singleLine="true"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/dlg_pnscheck_item_textsize" >
+
+</com.gkxim.android.thanhniennews.layout.CheckViewAutoMarquee>

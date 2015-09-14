@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bar_header"
+    android:splitMotionEvents="false" >
+
+    <ImageButton
+        android:id="@+id/imb_storydetail_back"
+        android:layout_width="@dimen/menu_bar_height"
+        android:layout_height="@dimen/menu_bar_height"
+        android:layout_gravity="left|center_vertical"
+        android:background="@null"
+        android:contentDescription="@string/image_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_menu_back" />
+
+    <ImageView
+        android:id="@+id/imgv_horse_phone"
+        android:layout_width="@dimen/menu_horse_phone_width"
+        android:layout_height="@dimen/menu_horse_phone_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/menu_header_logo_margin_bottom"
+        android:background="@drawable/horse_phone"
+        android:contentDescription="@string/image_contentdescription"
+        android:splitMotionEvents="false"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgv_horse_tablet"
+        android:layout_width="@dimen/menu_horse_tablet_width"
+        android:layout_height="@dimen/menu_horse_tablet_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/menu_horse_tablet_margin_left"
+        android:background="@drawable/horse_tablet"
+        android:contentDescription="@string/image_contentdescription"
+        android:splitMotionEvents="false"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/header_iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/menu_bar_logo_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="@string/image_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_menu_logo" />
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="imageButton">button</string>
+    <string name="imageView">image</string>
+    <string name="txtBack">返回</string>
+    <string name="txtBookmark">插入书签</string>
+    <string name="txtBookmarked">插入书签了</string>
+    <string name="txtCall">电话联络</string>
+    <string name="txtCancel">取消</string>
+    <string name="txtClear">删除</string>
+    <string name="txtClearBookmark">删除书签</string>
+    <string name="txtClearData">Clear data</string>
+    <string name="txtClearHistory">删除浏览记录</string>
+    <string name="txtConfirmClearBookmark">确定删除书签吗？</string>
+    <string name="txtConfirmClearData">Are you sure you want to clear all your saved data?</string>
+    <string name="txtConfirmClearHistory">确定删除浏览记录吗？</string>
+    <string name="txtConfirmDelete">确定删除选项吗？</string>
+    <string name="txtDelete">删除</string>
+    <string name="txtEnable">Enable</string>
+    <string name="txtGPSDisable">取消定位服务</string>
+    <string name="txtGuide">指南</string>
+    <string name="txtInstructionText">Scan pages with\nthis logo</string>
+    <string name="txtItem">个文件</string>
+    <string name="txtItems">个文件</string>
+    <string name="txtLoading">稍候，等待</string>
+    <string name="txtMsgEnableGPS">此应用程序需用定位服务。请打开定位服务。</string>
+    <string name="txtNetworkError">连接网络失败</string>
+    <string name="txtNo">否定</string>
+    <string name="txtNoConnection">没有网络连接</string>
+    <string name="txtNoItemFound">沒有找到文件</string>
+    <string name="txtOpenCameraFail">无法启动像头，请稍候重试</string>
+    <string name="txtPauseCapturing">暂停像头捕获设备</string>
+    <string name="txtPleaseWait">请稍等</string>
+    <string name="txtRecents">近期文档记录</string>
+    <string name="txtResumeCapturing">恢复像头捕获设备</string>
+    <string name="txtRunInBackground">后台运行</string>
+    <string name="txtSelectAR">选择AR</string>
+    <string name="txtSettings">设置</string>
+    <string name="txtShowing">显示</string>
+    <string name="txtSlowConnection">连接速度缓慢</string>
+    <string name="txtUpdating">正在更新</string>
+    <string name="txtVersion">版本</string>
+    <string name="txtVideo">视频</string>
+    <string name="txtYes">确定</string>
+    <string name="txtYoutubeError">无法启动YouTube</string>
+</resources>

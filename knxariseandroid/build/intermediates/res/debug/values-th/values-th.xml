@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/values-th/strings.xml -->
+    <eat-comment/>
+    <string name="imageButton">button</string>
+    <string name="imageView">image</string>
+    <string name="txtBack">ย้อนกลับ</string>
+    <string name="txtBookmark">บันทึก</string>
+    <string name="txtBookmarked">บันทึกเรียบร้อย</string>
+    <string name="txtCall">โทร</string>
+    <string name="txtCancel">ยกเลิก</string>
+    <string name="txtClear">ลบ</string>
+    <string name="txtClearBookmark">ลบข้อมูลบันทึก</string>
+    <string name="txtClearData">Clear data</string>
+    <string name="txtClearHistory">ลบประวัติการเข้าชม</string>
+    <string name="txtConfirmClearBookmark">คุณต้องการลบข้อมูลบันทึก?</string>
+    <string name="txtConfirmClearData">Are you sure you want to clear all your saved data?</string>
+    <string name="txtConfirmClearHistory">คุณต้องการลบประวัติการเข้าชม?</string>
+    <string name="txtConfirmDelete">คุณต้องการจะลบรายที่เลือก?</string>
+    <string name="txtDelete">ลบ</string>
+    <string name="txtGPSDisable">ไม่สามารถใช้งานหาตำแหน่งที่ตั้งได้</string>
+    <string name="txtGuide">วิธีการใช้งานiSnap</string>
+    <string name="txtInstructionText">Scan pages with\nthis logo</string>
+    <string name="txtItem"> รายการ</string>
+    <string name="txtItems"> รายการ</string>
+    <string name="txtLoading">กำลังโหลดข้อมูล</string>
+    <string name="txtMsgEnableGPS">แอพพิเคชั่นนี้จำเป็นต้องแสดงที่ตั้งของคุณ , กรุณาเปิดการใช้งานค้นหาตำแหน่ง</string>
+    <string name="txtNetworkError">เครือข่ายผิดพลาด</string>
+    <string name="txtNo">ไม่ใช่</string>
+    <string name="txtNoConnection">ไม่มีการเชื่อมต่อ</string>
+    <string name="txtNoItemFound">ไม่มีข้อมูล</string>
+    <string name="txtOpenCameraFail">ไม่สามารถเปิดการทำงานกล้องได้ , กรุณารอสักครู่</string>
+    <string name="txtPauseCapturing">กำลังหยุดเพื่อจับภาพ</string>
+    <string name="txtPleaseWait">กรุณารอสักครู่</string>
+    <string name="txtRecents">เพิ่งเข้าชม</string>
+    <string name="txtResumeCapturing">กำลังจับภาพ</string>
+    <string name="txtRunInBackground">ซ่อน</string>
+    <string name="txtSelectAR">เลือก AR ที่ต้องการ</string>
+    <string name="txtSettings">ตั้งค่า</string>
+    <string name="txtShowing">แสดง </string>
+    <string name="txtSlowConnection">การเชื่อมต่อช้า</string>
+    <string name="txtUpdating">กำลังอัพเดทข้อมูล</string>
+    <string name="txtVersion">เวอร์ชั่น</string>
+    <string name="txtVideo">วีดีโอ</string>
+    <string name="txtYes">ใช่</string>
+    <string name="txtYoutubeError">มีข้อผิดพลาดในการเข้าชมวีดีโอ Youtube </string>
+</resources>

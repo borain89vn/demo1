@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gkim.thanhniennews"
+    android:installLocation="internalOnly"
+    android:versionCode="22"
+    android:versionName="11" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <permission
+        android:name="com.gkim.android.thanhniennews.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gkim.android.thanhniennews.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <permission-group android:name="android.permission-group.SYSTEM_TOOLS" />
+    <permission-group android:name="android.permission-group.SYNC_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.gkxim.android.thanhniennews.ThanhNienNewsApp"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gkxim.android.thanhniennews.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="@string/title_activity_section" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:host="thanhnien.com.vn"
+                    android:scheme="http" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.SectionActivity"
+            android:label="@string/title_activity_section" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.UserNewStoryActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.UserNewVideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.layout.EggingListSectionColor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailSpliterActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.gkxim.android.thanhniennews.ACTION_VIEW_STORY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailActivity"
+            android:allowTaskReparenting="true"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity"
+            android:taskAffinity="com.gkxim.android.thanhniennews.SectionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gkxim.android.thanhniennews.SectionActivity" />
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.EventFullWebViewActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.EventFullWebViewWorldCupActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailFragmentActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.VideoStoryDetailFragmentActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.VideoSectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.spring.StoryDetailSpringFragmentActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.spring.StoryDetailGalleryActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.spring.StoryDetailImageSpringReviewActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.spring.StoryDetailGalleryActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailImageReviewActivity"
+            android:parentActivityName="com.gkxim.android.thanhniennews.StoryDetailFragmentActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailVideoPlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName="com.gkxim.android.thanhniennews.StoryDetailImageReviewActivity" />
+        <activity
+            android:name="com.gkxim.android.thanhniennews.StoryDetailCommentActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.gkxim.android.thanhniennews.StoryDetailFragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gkxim.android.thanhniennews.StoryDetailFragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.gkxim.android.thanhniennews.VideoSectionActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.gkxim.android.thanhniennews.SectionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gkxim.android.thanhniennews.SectionActivity" />
+        </activity>
+
+        <!-- Activity required to show ad overlays. -->
+
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <!-- xTify's definitions -->
+        <provider
+            android:name="com.xtify.sdk.db.Provider"
+            android:authorities="com.gkim.android.thanhniennews.XTIFY_PROVIDER"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.xtify.sdk.c2dm.C2DMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter android:permission="com.google.android.c2dm.permission.SEND" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.gkim.android.thanhniennews" />
+            </intent-filter>
+            <intent-filter android:permission="com.google.android.c2dm.permission.SEND" >
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.gkim.android.thanhniennews" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver android:name="com.xtify.sdk.NotifActionReceiver" /> -->
+        <receiver android:name="com.xtify.sdk.NotifActionReceiver" />
+        <receiver android:name="com.xtify.sdk.wi.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.xtify.sdk.location.LocationUpdateService" />
+        <service android:name="com.xtify.sdk.c2dm.C2DMIntentService" />
+        <service android:name="com.xtify.sdk.alarm.MetricsIntentService" />
+        <service android:name="com.xtify.sdk.alarm.TagIntentService" />
+        <service android:name="com.xtify.sdk.alarm.RegistrationIntentService" />
+        <service android:name="com.xtify.sdk.alarm.LocationIntentService" />
+        <!--
+        You must explicitly enable ADM and declare whether your app cannot work without
+        ADM (android:required="true") or can work without ADM (android:required="false").
+        If you specify android:required="false", your app must degrade gracefully if ADM
+        is unavailable.
+        -->
+        <amazon:enable-feature
+            android:name="com.amazon.device.messaging"
+            android:required="true" />
+
+        <service
+            android:name="com.xtify.sdk.adm.ADMMessageHandler"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.xtify.sdk.adm.ADMMessageHandler$MessageAlertReceiver"
+            android:permission="com.amazon.device.messaging.permission.SEND" >
+
+            <!-- To interact with ADM, your app must listen for the following intents. -->
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+
+                <!-- Replace the name in the category tag with your app's package name. -->
+                <category android:name="com.gkim.android.thanhniennews" />
+            </intent-filter>
+        </receiver>
+
+        <!-- xTify's definitions -->
+
+
+        <!-- Fabebook /> -->
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/api_key_social_facebook_id" />
+        <!-- End facebook /> -->
+        <!-- ARise SDK activities -->
+        <activity
+            android:name="com.knx.framework.main.CameraActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.main.setting.SettingPage"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- <activity -->
+        <!-- android:name="com.knx.framework.main.setting.GuideImage" -->
+        <!-- android:screenOrientation="portrait" > -->
+        <!-- </activity> -->
+
+        <activity
+            android:name="com.knx.framework.main.history.HistoryPage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.main.history.HistoryStaticLayer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.main.WebActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.videoplayer.MP4VideoPlayer"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.videoplayer.YouTubeVideoPlayer"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.videoplayer.YouTubeFailureRecoveryActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.knx.framework.main.pdfreader.ARisePdfReaderActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- end of ARise SDK activities -->
+        <service android:name="com.gkxim.android.thanhniennews.service.CatchLowMemoryService" >
+        </service>
+    </application>
+
+</manifest>

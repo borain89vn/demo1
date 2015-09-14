@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog_login"
+    android:orientation="vertical"
+    android:padding="@dimen/menu_list_item_padding_top" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/menu_list_item_padding_top"
+        android:contentDescription="@string/image_contentdescription"
+        android:src="@drawable/ic_dlg_logo" />
+
+    <ImageView
+        android:id="@+id/img_feedback_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:contentDescription="@string/image_contentdescription"
+        android:src="@drawable/ic_storycomment_compose_send" />
+
+    <RatingBar
+        android:id="@+id/ratebar_feedback_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:max="5"
+        android:numStars="5"
+        android:rating="3" />
+
+    <EditText
+        android:id="@+id/ed_feedback_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_login_textview"
+        android:ems="10"
+        android:hint="@string/dlg_login_email_hint"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/padding_lvl_5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_feedback_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/indicator_right_padding"
+        android:layout_weight="0.42"
+        android:background="@drawable/bg_dialog_login_textview"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/hint_newstory_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minWidth="@dimen/storydetail_header_image_width"
+        android:paddingLeft="@dimen/padding_lvl_5dp" />
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/dlg_feedback.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res/com.gkim.thanhniennews"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black_true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.polites.android.GestureImageView
+                android:id="@+id/gim_review"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                gesture-image:max-scale="10.0"
+                gesture-image:min-scale="0.75" />
+
+            <WebView
+                android:id="@+id/wv_story_review"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@color/background_black_true"
+                android:visibility="invisible" />
+
+            <org.taptwo.android.widget.CircleFlowIndicator
+                android:id="@+id/cfi_story_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/tv_story_review"
+                android:visibility="invisible"
+                app:activeColor="@color/menu_text_hover"
+                app:radius="5dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_story_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00999999"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/storydetail_review_image_caption_textsize"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

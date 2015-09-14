@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_storycomment_compose_dlg"
+        android:layoutAnimation="@animator/dlg_anim_inright"
+        android:orientation="vertical"
+        android:padding="@dimen/dlg_storycomment_compose_padding" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_storycomment_compose_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:text="@string/dlg_storycomment_compose_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textColorLink="@null"
+                android:textSize="@dimen/dlg_storycomment_compose_textsize_title" />
+
+            <ImageButton
+                android:id="@+id/imb_storycomment_compose_send"
+                android:layout_width="@dimen/btn_send_width"
+                android:layout_height="@dimen/btn_send_height"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/ic_storycomment_compose_send"
+                android:contentDescription="@string/image_contentdescription"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/imb_storycomment_compose_cancel"
+                android:layout_width="@dimen/btn_send_width"
+                android:layout_height="@dimen/btn_send_height"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/ic_storycomment_compose_cancel"
+                android:contentDescription="@string/image_contentdescription"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_list_item_padding_top"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/id_storycomment_compose_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_storycomment_compose_box" />
+
+            <EditText
+                android:id="@+id/ed_storycomment_compose_title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_storycomment_compose_content"
+                android:ems="10"
+                android:hint="@string/hint_newstory_storytitle"
+                android:paddingLeft="@dimen/menu_header_padding_top"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <Gallery
+            android:id="@+id/gl_storycomment_compose_smileys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_storycomment_compose_content"
+            android:galleryItemBackground="@drawable/bg_storycomment_smiley"
+            android:spacing="@dimen/menu_header_padding_top"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_storycomment_compose_smileys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_storycomment_compose_content" >
+
+            <LinearLayout
+                android:id="@+id/ll_storycomment_compose_smileys"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <EditText
+            android:id="@+id/ed_storycomment_compose_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/menu_header_padding_top"
+            android:background="@drawable/bg_storycomment_compose_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:minLines="10" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/dlg_storycomment_compose.xml -->

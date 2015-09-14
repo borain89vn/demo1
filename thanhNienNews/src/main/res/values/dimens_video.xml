@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="w_btn_playvideo">84dp</dimen>
+    <dimen name="h_btn_playvideo">84dp</dimen>
+    <dimen name="padding5">5.0dip</dimen>
+    <dimen name="padding10">10.0dip</dimen>
+    <dimen name="video_bar_logo_height">44dp</dimen>
+    <dimen name="video_bar_logo_width">120dp</dimen>
+    <dimen name="video_bar_menu_padding">8dp</dimen>
+    <dimen name="video_header_bar_paddingtop">30dp</dimen>
+    <dimen name="video_home_box_text_size">24sp</dimen>
+    <dimen name="section_boxvideo_icon_video_size">25dp</dimen>
+
+</resources>

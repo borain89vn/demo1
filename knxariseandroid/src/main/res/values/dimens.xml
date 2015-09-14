@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    
+    <!-- Size used in arise pdf reader. -->
+    <dimen name="arise_pdf_reader_preview_width">60dp</dimen>
+    <dimen name="arise_pdf_reader_preview_height">100dp</dimen>
+    <dimen name="arise_pdf_reader_preview_thumbnail_height">80dp</dimen>
+    <dimen name="arise_pdf_reader_preview_page_number_height">20dp</dimen>
+    
+    <!-- Mu Pdf -->
+    <dimen name="toolbar_height">60dip</dimen>
+    <dimen name="preview_height">180dip</dimen>
+
+</resources>

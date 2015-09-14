@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gkxim.android.thanhniennews.layout.GUIListMenuFooter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_setting"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/menu_list_footer_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|fill_horizontal"
+        android:layout_marginLeft="@dimen/menu_header_margin_left"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:splitMotionEvents="false"
+        android:text="Tuấn Lâm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/menu_list_footer_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/image_contentdescription"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_menu_settings" />
+
+</com.gkxim.android.thanhniennews.layout.GUIListMenuFooter><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/menu_list_footer.xml -->

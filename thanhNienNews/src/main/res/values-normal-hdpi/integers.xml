@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="section_max_cols">3</integer>
+    <integer name="boxcellsize">146</integer>
+    <integer name="outsidepadding">10</integer>
+    <integer name="middlepadding">10</integer>
+    <integer name="boxtextsize">18</integer>
+    <integer name="menu_list_item_section_icon_size">64</integer>
+    <integer name="extract_txt_size_height">1</integer>
+    <integer name="extract_txt_size_height_big">3</integer>
+    <integer name="extract_txt_size_height_big_box1">9</integer>
+
+</resources>

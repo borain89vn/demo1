@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quickContactBadge1"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quickContactBadge2"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quickContactBadge3"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quickContactBadge4" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quickContactBadge4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/progressBar1"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="Button" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar1"
+        android:layout_toRightOf="@+id/button1"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/quickContactBadge5"
+        android:layout_toRightOf="@+id/quickContactBadge5"
+        android:padding="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quickContactBadge7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="148dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/progressBar2"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="Button" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar2"
+        android:layout_toRightOf="@+id/button2"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar2"
+        android:layout_toRightOf="@+id/quickContactBadge8"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar2"
+        android:layout_toRightOf="@+id/quickContactBadge9"
+        android:padding="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quickContactBadge10" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quickContactBadge8"
+        android:layout_below="@+id/progressBar3"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar3"
+        android:layout_toRightOf="@+id/quickContactBadge11"
+        android:padding="5dp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar3"
+        android:layout_toRightOf="@+id/quickContactBadge12"
+        android:padding="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quickContactBadge13" />
+
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/review_relative.xml -->

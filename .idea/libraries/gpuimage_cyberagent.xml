@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gpuimage-cyberagent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/knxariseandroid/libs/gpuimage-cyberagent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

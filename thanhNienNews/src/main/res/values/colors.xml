@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="background">#FF231F20</color>
+    <color name="blue_bright">#fff3f3f3</color>
+    <color name="background_transparent">#80231F20</color>
+    <color name="background_black_true">#FF000000</color>
+    <color name="storydetail_background_black">#FF231F20</color>
+    <color name="storydetail_background_white">@android:color/white</color>
+    <color name="storydetail_text_white">#FFd1d3d4</color>
+    <color name="storydetail_text_black">#FF424143</color>
+    <color name="bg_storydetail_comments">#FFE6E7E8</color>
+    <color name="bg_dialog_loginout">#FF202020</color>
+    <color name="bg_dialog_loginout_textview">#FF727272</color>
+    <color name="bg_dialog_loginout_button">#FF424242</color>
+    <color name="box_hasread_textcolor">#FF9c9b9b</color>
+    <color name="menu_text_hover">#F7941E</color>
+    <color name="section_header_title">#FFFFFF</color>
+    <color name="storydetail_header_title">#f7941e</color>
+    <color name="storydetail_header_author">#000000</color>
+ <!-- A7A9AC -->
+    <color name="storydetail_content">@color/storydetail_header_title</color>
+    <color name="storydetail_header_comment">#58595B</color>
+    <color name="storydetail_comment_author">#1C75BC</color>
+    <color name="storydetail_comment_title">#414042</color>
+    <color name="storydetail_header_comment_title">#808285</color>
+    <color name="storydetail_comment_text">@color/storydetail_comment_title</color>
+    <color name="storyfooter_addcomment_count_textcolor">#FF004F8A</color>
+    <color name="story_comment_background_mode_night">#ff231f20</color>
+    <color name="story_comment_title_mode_night">#ffd1d3d4</color>
+    <color name="story_comment_content_mode_night">#ffd1d3d4</color>
+    <color name="story_comment_name_mode_night">#ffffffff</color>
+    <color name="toast_message_content">#949395</color>
+    <!-- spring 2014 -->
+    <color name="spring_category">#F7941E</color>
+    <color name="spring_title">#000000</color>
+    <color name="spring_date">#8F8E8E</color>
+	<!--  video section's colors -->
+	<color name="background_video_header">#FF0058AF</color>
+</resources>

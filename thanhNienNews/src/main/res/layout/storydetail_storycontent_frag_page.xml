@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gkxim.android.thanhniennews.layout.OverrideScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/storydetail_sv_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/menu_bar_height" >
+
+
+
+
+        <TextView
+            android:id="@+id/tv_storydetail_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/menu_header_padding_top"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/storydetail_header_title"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/tv_storydetail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/menu_header_padding_top"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/storydetail_header_title"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/menu_header_padding_top"
+            android:background="@drawable/line_storydetail_title"
+            android:contentDescription="@string/image_contentdescription"
+            android:src="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <TextView
+                android:id="@+id/tv_storydetail_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/menu_header_padding_top"
+                android:textColor="@color/storydetail_header_author"
+                android:textStyle="italic" />
+
+
+
+
+            <TextView
+                android:id="@+id/tv_storydetail_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/menu_header_padding_top"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/storydetail_header_author"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imv_storydetail_topimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_header_padding_top"
+            android:contentDescription="@string/image_contentdescription" />
+
+        <WebView
+            android:id="@+id/wv_storydetail_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/menu_header_padding_top"
+            android:layout_marginRight="@dimen/menu_header_padding_top"
+            android:background="@null"
+            android:scrollbars="vertical" />
+
+
+
+
+
+
+
+
+
+
+		<ExpandableListView
+		    android:id="@+id/elv_storydetail_comments"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:groupIndicator="@null"
+		    android:scrollbars="none" >
+
+		</ExpandableListView>
+
+
+
+
+		<ViewStub
+		    android:id="@+id/vs_storydetail_poll"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:visibility="gone" />
+			
+    </LinearLayout>
+
+</com.gkxim.android.thanhniennews.layout.OverrideScrollView>

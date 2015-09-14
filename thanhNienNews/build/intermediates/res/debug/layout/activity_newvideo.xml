@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <FrameLayout
+        android:id="@+id/ln_newstory_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bar_header"
+        android:splitMotionEvents="false" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:scaleType="fitXY"
+            android:src="@drawable/colorful"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/imb_newstory_back"
+            android:layout_width="@dimen/menu_bar_height"
+            android:layout_height="@dimen/menu_bar_height"
+            android:layout_gravity="left|center_vertical"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:onClick="onClick"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_menu_back" />
+
+        <ImageView
+            android:id="@+id/imgv_horse_phone"
+            android:layout_width="@dimen/menu_horse_phone_width"
+            android:layout_height="@dimen/menu_horse_phone_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/menu_header_logo_margin_bottom"
+            android:background="@drawable/horse_phone"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgv_horse_tablet"
+            android:layout_width="@dimen/menu_horse_tablet_width"
+            android:layout_height="@dimen/menu_horse_tablet_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="@dimen/menu_horse_tablet_margin_left"
+            android:background="@drawable/horse_tablet"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imv_newstory_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/menu_bar_logo_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/image_contentdescription"
+            android:onClick="onClick"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_menu_logo" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:splitMotionEvents="false" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:splitMotionEvents="false" >
+
+                <FrameLayout
+                    android:id="@+id/fr_newstory_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:splitMotionEvents="false" >
+
+                    <TextView
+                        android:id="@+id/tv_newstory_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/menu_bar_height"
+                        android:layout_marginLeft="@dimen/newstory_attach_buttons_padding"
+                        android:gravity="center_vertical"
+                        android:splitMotionEvents="false"
+                        android:text="@string/newstory_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+
+                    <ImageView
+                        android:id="@+id/imv_newstory_send"
+                        android:layout_width="@dimen/btn_send_width"
+                        android:layout_height="@dimen/btn_send_height"
+                        android:layout_gravity="right|center_vertical"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:onClick="onClick"
+                        android:scaleType="fitXY"
+                        android:splitMotionEvents="false"
+                        android:src="@drawable/ic_storycomment_compose_send" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:splitMotionEvents="false" >
+
+                    <ImageButton
+                        android:id="@+id/imb_newstory_voice"
+                        android:layout_width="@dimen/newstory_attach_button_width"
+                        android:layout_height="@dimen/newstory_attach_button_height"
+                        android:background="@drawable/graybox"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:onClick="onClick"
+                        android:splitMotionEvents="false"
+                        android:src="@drawable/ic_newstory_voice"
+                        android:visibility="invisible" />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:splitMotionEvents="false" >
+
+                        <ImageButton
+                            android:id="@+id/imb_newstory_photo"
+                            android:layout_width="@dimen/newstory_attach_button_width"
+                            android:layout_height="@dimen/newstory_attach_button_height"
+                            android:background="@drawable/graybox"
+                            android:contentDescription="@string/image_contentdescription"
+                            android:onClick="onClick"
+                            android:splitMotionEvents="false"
+                            android:src="@drawable/ic_newstory_video" />
+
+                        <TextView
+                            android:id="@+id/tv_newstory_size_photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:splitMotionEvents="false"
+                            android:text="@string/hint_newsvideo_res_size"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@android:color/white" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:id="@+id/imb_newstory_video"
+                        android:layout_width="@dimen/newstory_attach_button_width"
+                        android:layout_height="@dimen/newstory_attach_button_height"
+                        android:background="@drawable/graybox"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:onClick="onClick"
+                        android:splitMotionEvents="false"
+                        android:src="@drawable/ic_newstory_video"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_newstory_storytitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/newstory_attach_buttons_padding"
+                    android:background="@drawable/bg_storycomment_compose_content"
+                    android:ems="10"
+                    android:hint="@string/hint_newstory_storytitle"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapSentences|textShortMessage"
+                    android:lines="1"
+                    android:maxLength="@integer/newstory_max_length_title"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:splitMotionEvents="false" >
+                </EditText>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_newstory_storycontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_storycomment_compose_content"
+                android:ems="5"
+                android:gravity="top|left"
+                android:hint="@string/hint_newstory_content"
+                android:inputType="textMultiLine"
+                android:maxLength="@integer/newstory_max_length_content"
+                android:splitMotionEvents="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/activity_newvideo.xml -->

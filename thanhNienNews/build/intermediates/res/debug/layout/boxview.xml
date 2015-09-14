@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:splitMotionEvents="false" >
+
+    <ImageView
+        android:id="@+id/boxview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_lauching"
+        android:visibility="gone" />
+    
+     <ImageView
+        android:id="@+id/boxview_lat_lng"
+        android:layout_width="@dimen/icon_latlng_width"
+        android:layout_height="@dimen/icon_latlng_height"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/location_latlng"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/boxview_favorited"
+        android:layout_width="@dimen/section_category_image_favorite_width"
+        android:layout_height="@dimen/section_category_image_favorite_width"
+        android:layout_gravity="top|right"
+        android:background="@drawable/ic_section_favoritedstory"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false" />
+
+    <LinearLayout
+        android:id="@+id/box_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/boxview_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/section_box_title_textsize" />
+
+        <ImageView
+            android:id="@+id/boxview_img_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/boximage_contentdescription"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_lauching"
+            android:minWidth="@dimen/weather_width"
+            android:scaleType="fitCenter"
+             />
+
+        <TextView
+            android:id="@+id/boxview_province"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/section_box_title_textsize"
+            android:maxLines="2" 
+            android:ellipsize="marquee"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/boxview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/section_box_title_textsize" />
+
+    <TextView
+        android:id="@+id/boxview_shortcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/boxview_video_icon_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/play_big"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/boxview_video_icon_small_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/play_small"
+        android:visibility="invisible" />
+
+</merge><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/boxview.xml -->

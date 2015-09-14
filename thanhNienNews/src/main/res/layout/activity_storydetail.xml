@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/storydetail_relayout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="@dimen/menu_bar_height" />
+
+    <com.gkxim.android.thanhniennews.layout.GUIListMenuListView
+        android:id="@+id/guimenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/menu_list_header_padding_top"
+        android:visibility="gone" >
+    </com.gkxim.android.thanhniennews.layout.GUIListMenuListView>
+
+    <com.gkxim.android.thanhniennews.layout.GUIHeader
+        android:id="@+id/guiheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.gkxim.android.thanhniennews.layout.GUIHeader>
+
+    <com.gkxim.android.thanhniennews.layout.GUIStoryFooter
+        android:id="@+id/guifooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    </com.gkxim.android.thanhniennews.layout.GUIStoryFooter>
+
+</RelativeLayout>

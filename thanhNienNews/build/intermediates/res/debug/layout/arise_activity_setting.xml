@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+              
+    <ImageView
+        android:id="@+id/setting_page_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imageView"
+        android:scaleType="fitXY" />
+    
+    <ImageView
+        android:id="@+id/settingPageDimBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dim_background"
+        android:contentDescription="@string/imageView" />
+    
+    <RelativeLayout
+        android:id="@+id/setting_page_top_section"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/page_title_section" >
+        
+        <RelativeLayout
+	        android:id="@+id/video_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="20dp"
+	        android:background="#000000"
+	        android:visibility="gone" >
+
+    	</RelativeLayout>
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/buttonsSection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/setting_page_top_section"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" >
+        
+        <com.knx.framework.main.setting.SettingPageButton
+            android:id="@+id/aboutButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/txtAbout"
+            android:textColor="@color/default_text_color"
+            android:gravity="center" />
+        
+        <com.knx.framework.main.setting.SettingPageButton
+            android:id="@+id/clearDataButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/txtClearData"
+            android:textColor="@color/default_text_color"
+            android:gravity="center" />
+        
+        <com.knx.framework.main.setting.SettingPageButton
+            android:id="@+id/guideImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/txtGuide"
+            android:textColor="@color/default_text_color"
+            android:gravity="center" />
+        
+        <com.knx.framework.main.setting.SettingPageButton
+            android:id="@+id/guideVideoButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/txtVideo"
+            android:textColor="@color/default_text_color"
+            android:gravity="center" />
+        
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/page_title_section"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/default_theme_color" >
+        
+        <TextView
+            android:id="@+id/page_title"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:gravity="center"
+    	    android:text="@string/txtSettings"
+    	    android:textSize="20sp"
+    	    android:textColor="@color/default_text_color"
+    	    android:textStyle="bold" />
+        
+    </RelativeLayout>
+    
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/layout/arise_activity_setting.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/ThanhNiewNewsXuan-AS/knxariseandroid/unspecified/res/layout/arise_activity_setting.xml -->

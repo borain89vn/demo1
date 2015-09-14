@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.gkim.android.thanhniennews"
+    android:id="@+id/section_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_section_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/section_category_title_padding_left"
+        android:splitMotionEvents="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/section_header_title"
+        android:textSize="@dimen/section_category_title_textsize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_section_headevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner_worldcup_main"
+        android:visibility="gone" />
+
+    <LinearLayout
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/api_key_admob" />
+
+    <include
+        layout="@layout/springview"
+        android:visibility="gone" />
+
+    <com.gkxim.android.thanhniennews.layout.VideoHomeLayout
+        xmlns:app="http://schemas.android.com/apk/res/com.gkim.thanhniennews"
+        android:id="@+id/blSection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:splitMotionEvents="false"
+        app:maxColumns="@integer/section_video_home_max_cols" >
+
+        <TextView
+            android:id="@+id/boxview_video_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="TextViewTextViewTextView" />
+    </com.gkxim.android.thanhniennews.layout.VideoHomeLayout>
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/sectionview_video.xml -->

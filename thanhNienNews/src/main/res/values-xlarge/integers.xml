@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="section_max_cols">4</integer>
+    <integer name="boxcellsize">172</integer>
+    <integer name="outsidepadding">10</integer>
+    <integer name="middlepadding">6</integer>
+    <bool name="portrait_only">false</bool>
+    <bool name="istablet">true</bool>
+</resources>

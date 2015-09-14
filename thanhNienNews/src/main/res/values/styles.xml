@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="LiveoActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="video_home_width_height">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

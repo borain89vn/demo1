@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/staticLayerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/static_layer_dim_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:contentDescription="@string/imageView"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/static_layer_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imageView" />
+    
+    <RelativeLayout
+        android:id="@+id/interactiveContentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+    
+    <RelativeLayout
+        android:id="@+id/staticLayerController"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#800080"
+        android:clickable="true" >
+        
+        <TextView
+            android:id="@+id/staticLayerEntryName"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/staticLayerBookmarkBtn"
+            android:gravity="center_vertical|left"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+	    
+	    <com.knx.framework.main.cameraUI.FlatCircularButton
+	        android:id="@+id/staticLayerReturnBtn"
+	        android:layout_width="44dp"
+	        android:layout_height="44dp"
+	        android:layout_marginRight="3dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/close_button_white"
+	        android:contentDescription="@string/imageButton" />
+
+	    <com.knx.framework.main.cameraUI.FlatCircularButton
+	        android:id="@+id/staticLayerBookmarkBtn"
+	        android:layout_width="44dp"
+	        android:layout_height="44dp"
+	        android:layout_alignTop="@+id/staticLayerReturnBtn"
+	        android:layout_toLeftOf="@+id/staticLayerReturnBtn"
+	        android:layout_marginRight="6dp"
+	        android:background="@drawable/arise_bookmark"
+	        android:contentDescription="@string/imageButton" />
+	    
+    </RelativeLayout>
+    
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/layout/static_layer_layout.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/ThanhNiewNewsXuan-AS/knxariseandroid/unspecified/res/layout/static_layer_layout.xml -->

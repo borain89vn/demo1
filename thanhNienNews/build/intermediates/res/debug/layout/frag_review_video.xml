@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res/com.gkim.android.thanhniennews"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black_true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/contentVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/bt_video_close"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:contentDescription="@string/image_contentdescription"
+                android:src="@drawable/bt_close_dialog" />
+
+            <FrameLayout
+                android:id="@+id/controlContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding5" >
+
+                    <TextView
+                        android:id="@+id/startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF" />
+
+                    <SeekBar
+                        android:id="@+id/timeSeekbar"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding10"
+                        android:layout_marginRight="@dimen/padding10"
+                        android:layout_weight="1.0"
+                        android:maxHeight="3.0dip"
+                        android:minHeight="3.0dip"
+                        android:paddingLeft="6.0dip"
+                        android:paddingRight="6.0dip"
+                        android:progressDrawable="@drawable/seekbar_style_playing"
+                        android:thumb="@drawable/progress_bar_playing_thumb"
+                        android:thumbOffset="6.0dip" />
+
+                    <TextView
+                        android:id="@+id/endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_play_pause"
+                    android:layout_width="@dimen/w_btn_playvideo"
+                    android:layout_height="@dimen/w_btn_playvideo"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bt_widget_play_nor" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/loadingData"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/frag_review_video.xml -->

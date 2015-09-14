@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/storydetail_fblike_count_margintop"
+        android:background="@null"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/pb_storydetail_processing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@null" />
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp" >
+
+	        <ImageButton
+	            android:id="@+id/imb_storyfooter_back"
+	            android:layout_width="@dimen/storydetail_back_width"
+	            android:layout_height="@dimen/storydetail_back_height"
+	            android:layout_marginLeft="@dimen/storydetail_back_marginleft"
+	            android:background="@null"
+	            android:contentDescription="@string/image_contentdescription"
+	            android:scaleType="centerInside"
+	            android:src="@drawable/ic_menu_storydetail_back" />
+		     
+	        <TextView
+	            android:id="@+id/tv_storydetail_category"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+            	android:layout_weight="0.6"
+	            android:background="@null"
+	            android:paddingLeft="@dimen/menu_header_padding_top"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="@color/spring_category"
+	            android:textSize="@dimen/storydetail_category_title"
+	            android:textStyle="bold" />
+	        
+	        <TextView
+	            android:id="@+id/tv_storydetail_fblike_count"
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/storydetail_fblike_count_height"
+	            android:layout_marginRight="@dimen/storydetail_icon_tool_marginleft"
+	            android:background="@drawable/ic_storydetail_fb_like"
+	            android:clickable="true"
+	            android:gravity="right|center_vertical"
+	            android:paddingRight="@dimen/storydetail_fblike_count_text_paddingright"
+                android:paddingLeft="@dimen/storydetail_fblike_count_text_paddingleft"
+	            android:text="0"
+	            android:textColor="@color/storyfooter_fblike_comment_count_color" />
+
+	        <ImageButton
+	            android:id="@+id/imb_storyfooter_share"
+	            android:layout_width="@dimen/storydetail_share_width"
+	            android:layout_height="@dimen/storydetail_share_height"
+	            android:layout_marginLeft="@dimen/storydetail_icon_tool_marginleft"
+	            android:layout_marginRight="@dimen/storydetail_icon_tool_marginleft"
+	            android:background="@null"
+	            android:contentDescription="@string/image_contentdescription"
+	            android:scaleType="centerInside"
+	            android:src="@drawable/ic_storyfooter_share" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/menu_header_padding_top"
+            android:background="@drawable/line_storydetail_title"
+            android:contentDescription="@string/image_contentdescription"
+            android:src="@null" />
+        <TextView
+            android:id="@+id/tv_storydetail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="@dimen/menu_header_padding_top"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/spring_title"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout-large/spring_header.xml -->

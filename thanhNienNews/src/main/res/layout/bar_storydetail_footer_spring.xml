@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_storyfooter_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_storydetail_fblike_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_storyfooter_fblike"
+        android:clickable="true"
+        android:gravity="right|center_vertical"
+        android:paddingRight="@dimen/storyfooter_phone_fblike_count_paddingright"
+        android:paddingLeft="@dimen/storyfooter_phone_fblike_count_paddingleft"
+        android:splitMotionEvents="false"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/storyfooter_fblike_comment_count_color"
+        android:textSize="@dimen/storyfooter_phone_fblike_count_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_height"
+        android:background="@drawable/bg_bar_footer"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false" >
+
+        <ImageButton
+            android:id="@+id/imb_storyfooter_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:scaleType="center"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_menu_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageButton
+            android:id="@+id/imb_storyfooter_check"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:visibility="invisible"
+            android:src="@drawable/ic_storyfooter_check" />
+
+        <RelativeLayout
+            android:id="@+id/rl_storyfooter_addcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+             android:visibility="invisible"
+            android:splitMotionEvents="false" >
+
+            <ImageButton
+                android:id="@+id/imb_storyfooter_addcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:contentDescription="@string/image_contentdescription"
+                android:splitMotionEvents="false"
+                android:src="@drawable/ic_storyfooter_addcomment" />
+
+            <TextView
+                android:id="@+id/tv_storyfooter_addcomment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/storyfooter_addcomment_count_marginbottom"
+                android:splitMotionEvents="false"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/storyfooter_addcomment_count_textcolor" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imb_storyfooter_textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_storyfooter_textsize" />
+
+        <ImageButton
+            android:id="@+id/imb_storyfooter_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_storyfooter_share" />
+    </LinearLayout>
+
+</LinearLayout>

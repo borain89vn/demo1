@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="section_category_title_padding_left">30dp</dimen>
+    <dimen name="menu_header_date_seperator_padding_right">105dp</dimen>
+	<dimen name="storydetail_content_padding_left">30dp</dimen>
+	<dimen name="storydetail_back_marginleft">0dp</dimen>
+	<dimen name="storydetail_share_marginleft">10dp</dimen>
+	<dimen name="storydetail_share_margintop">10dp</dimen>
+	<dimen name="dlg_storydetail_textmode_margin_left">170dp</dimen>
+    <dimen name="dlg_storydetail_textmode_padding">35dp</dimen>
+    <dimen name="dlg_storydetail_textmode_padding_top">15dp</dimen>
+	<dimen name="dlg_storydetail_shareby_margin_left">170dp</dimen>
+</resources>

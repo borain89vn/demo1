@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black_true"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bar_storydetail_header_preview" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_storydetail_reviewimages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/menu_bar_height"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/ll_storydetail_reviewimages"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <!-- android:layout_marginTop="@dimen/menu_bar_height" -->
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/activity_story_imageview.xml -->

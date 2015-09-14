@@ -1,0 +1,53 @@
+@font-face { 
+    font-family: 'thanhnien'; 
+    src: url('file:///android_asset/thanhnien_regular.ttf');
+}
+
+@font-face { 
+    font-family: 'thanhnien bold'; 
+    src: url('file:///android_asset/thanhnien_bold.ttf');
+}
+
+@font-face { 
+    font-family: 'thanhnien italic';
+    src: url('file:///android_asset/thanhnien_italic.ttf');
+}
+
+body {
+    font-family: 'thanhnien';
+    line-height: 1.3;
+}
+
+
+b, strong {
+   font-family: 'thanhnien bold';
+}
+
+i {
+   font-family: 'thanhnien italic';
+}
+
+/* Don't Change - Positioning */
+.absoluteCenter {
+ margin:auto;
+ position:fixed;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+}
+
+/* Sizing */
+img.absoluteCenter {
+ max-width:100%;
+}
+
+/* Adding some styles to make it more visible */
+img.absoluteCenter {
+ background:black;
+}
+
+ul.nonstyle {list-stylel:none; padding:0px;}
+li.pdfline {line-height:25px;width:100%; margin-bottom: 10px;}
+a.pdflink {margin-top:10px;display:inline-block; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap;width: 70%;}
+.pdftext {width: 32px;height: 32px;margin: 0 10px; display:inline-block; vertical-align: text-top;margin-top: -5px;}

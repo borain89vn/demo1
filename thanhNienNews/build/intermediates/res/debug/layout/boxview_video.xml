@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_bright"
+    android:splitMotionEvents="false" >
+
+    <ImageView
+        android:id="@+id/boxview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:scaleType="centerCrop"
+        android:splitMotionEvents="false" />
+
+    <ImageView
+        android:id="@+id/boxview_video_icon_big"
+        android:layout_width="@dimen/section_boxvideo_icon_video_size"
+        android:layout_height="@dimen/section_boxvideo_icon_video_size"
+        android:contentDescription="@string/boximage_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_video_home_box_button" />
+
+    <LinearLayout
+        android:id="@+id/boxview_video_ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="@dimen/video_home_box_txt_padding_left"
+        android:paddingRight="@dimen/video_home_box_txt_padding_right" >
+
+        <ImageView
+            android:id="@+id/boxview_video_icon_small_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/boximage_contentdescription"
+            android:splitMotionEvents="false"
+            android:src="@drawable/play_small"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/boxview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:splitMotionEvents="false"
+            android:textSize="@dimen/section_box_title_textsize" />
+    </LinearLayout>
+
+</merge><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/boxview_video.xml -->

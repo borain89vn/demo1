@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="section_category_title_padding_left">30dp</dimen>
+    <dimen name="menu_header_date_seperator_padding_right">80dp</dimen>
+    <dimen name="menu_header_date_marginright">0dp</dimen>
+    <dimen name="menu_header_icon_post_padding_right">10dp</dimen>
+    <dimen name="menu_header_icon_menu_padding_left">@dimen/menu_header_icon_post_padding_right</dimen>
+	<dimen name="storydetail_content_padding_left">20dp</dimen>
+	<dimen name="storydetail_back_marginleft">0dp</dimen>
+	<dimen name="dlg_storydetail_textmode_margin_left">400dp</dimen>
+    <dimen name="dlg_storydetail_textmode_padding">35dp</dimen>
+    <dimen name="dlg_storydetail_textmode_padding_top">15dp</dimen>
+	<dimen name="dlg_storydetail_shareby_margin_left">430dp</dimen>
+	<dimen name="dlg_storydetail_shareby_padding">40dp</dimen>
+	<dimen name="dlg_storydetail_shareby_margin_top">83dp</dimen>
+    <dimen name="dlg_storydetail_textmode_padding_bottom">0dp</dimen>
+    <dimen name="dlg_storydetail_textmode_height_togglebutton">35dp</dimen>
+    <dimen name="dlg_storydetail_textmode_width_togglebutton">220dp</dimen>
+    <dimen name="dlg_storydetail_textmode_textsize_letter_small">20sp</dimen>
+    <dimen name="dlg_storydetail_textmode_textsize_letter_big">30sp</dimen>
+    
+    <dimen name="video_home_top_box_align">103dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <LinearLayout
+        android:id="@+id/menu_list_footer_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/menu_list_footer_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/menu_list_item_height"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:layout_marginLeft="@dimen/menu_header_margin_left"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/menu_list_item_padding_top"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/menu_header_padding_top"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_list_item_text"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/menu_list_footer_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/menu_list_item_height"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:padding="10dp"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_menu_settings" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/menu_list_footer_layout.xml -->

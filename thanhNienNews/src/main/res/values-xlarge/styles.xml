@@ -1,0 +1,9 @@
+<resources>
+
+
+    <style name="video_home_width_height">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+</resources>

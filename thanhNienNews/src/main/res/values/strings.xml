@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="special_character">…</string>
+    <string name="app_name">Thanh Nien Mobile</string>
+    <string name="hello_world">developing..</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash">Thanh Nien Mobile</string>
+    <string name="splash_imgv_contentdescription">ThanhNien News on Android</string>
+    <string name="toast_title">Thanh Nien Mobile</string>
+    <string name="api_key_tracking_flurry">94W4JMPZ79D5QR9QZT74</string>
+    <string name="api_key_social_facebook_id">157439324441177</string>
+    <string name="api_key_social_facebook_serect">7924e35a03e0a4d0b58987a4c882e12d</string>
+    <string name="api_key_social_twitter_key">LDsuF2h5qByPrtzJePGOtQ</string>
+    <string name="api_key_social_twitter_serect">GWeFAYpR4XC1524Rvg8WivVMDK1id2WEUgEuVYGtdA</string>
+    <string name="api_key_social_twitter_myaccess_token">1282267987-9O5Xffq4JevjSSgAb0YRqd5CdQUHEq8vI5S9Lpo</string>
+    <string name="api_key_social_twitter_myaccess_tokensecret">dkm1VpgDGHGESNB4hNX0TPT4gn3ExqVOg5b0zch8Y</string>
+    <string name="api_key_admob">a1529ffa287ec5c</string>
+    <string name="api_key_interstitial_ad">ca-app-pub-9101256272143007/2265732637</string>
+    <string name="close">Đóng</string>
+    <string name="close_application_confirm">Bạn đồng ý thoát khỏi ứng dụng đọc báo Thanh Nien Mobile?</string>
+    <string name="close_application_confirm_yes">Đồng ý</string>
+    <string name="close_application_confirm_no">Không</string>
+    <string name="close_application_cleared_data">Dữ liệu ứng dụng có thể đã bị xóa, vui lòng mở lại ứng dụng từ danh sách.</string>
+    <string name="close_application_no_connection">Thiết bị không có kết nối. Vui lòng kiểm tra lại kết nối.</string>
+    <string name="close_application_read_offline">Thiết bị không có kết nối. Bạn chỉ có thể đọc được những tin đã lưu. Bạn có muốn đọc không?</string>
+    <string name="close_application_read_offline_no_page">Bạn không có tin nào được lưu.</string>
+    <string name="title_activity_section">ThanhNien Section page</string>
+    <string name="boximage_contentdescription">TN\'s media resource.</string>
+    <string name="image_contentdescription">image\'s contentdescription</string>
+    <string name="newstory_title">Bài viết của bạn</string>
+    <string name="hint_newstory_storytitle">Chủ đề</string>
+    <string name="hint_newstory_content">Nội dung</string>
+    <string name="hint_newstory_res_size">0/3</string>
+    <string name="hint_newsvideo_res_size">0/1</string>
+    <string name="menu_head_user_page">Trang của bạn</string>
+    <string name="menu_head_user_page_saved">Tin đã lưu</string>
+    <string name="menu_head_home">Trang chính</string>
+    <string name="menu_setting_support">Hỗ trợ</string>
+    <string name="menu_setting_policy">Điều khoản và Bảo mật</string>
+    <string name="menu_setting_logout">Đăng xuất</string>
+    <string name="menu_search_not_found">Tìm không thấy dữ liệu!!</string>
+    <string name="menu_userpost_not_found">Người dùng chưa có bài chia sẻ.</string>
+    <string name="data_downloading">Đang lấy dữ liệu..</string>
+    <string name="please_wait">Vui lòng chờ!!</string>
+    <string name="storydetail_comment_header_text">Ý kiến bạn đọc:</string>
+    <string name="storydetail_cannot_savebookmark">Lỗi kết nối!Bạn chưa thể thực hiện đánh dấu mẩu tin lúc này!!</string>
+    <string name="storydetail_story_has_saved">Tin hiện tại đã được lưu!</string>
+    <string name="storydetail_story_has_removed">Tin hiện tại đã được xóa!</string>
+    <string name="storydetail_background_black">#231F20</string>
+    <string name="storydetail_background_white">white</string>
+    <string name="storydetail_text_white">#d1d3d4</string>
+    <string name="storydetail_text_black">#424143</string>
+    <string name="storydetail_no_connection">Bạn đang ở chế độ offline. Không có dự liệu offline ở bài viết</string>
+    <string name="storydetail_topimage_image_count">%1d</string>
+    <string name="storydetail_topimage_video_count">%1d</string>
+    <string name="dlg_account_error_forgot_emailpass">Bạn quên nhập Email hoặc Mật khẩu.</string>
+    <string name="dlg_account_error_forgot_name">Bạn quên nhập thông tin Tên và Họ.</string>
+    <string name="dlg_account_error_register_general">Bạn cần nhập đầy đủ thông tin đăng ký.</string>
+    <string name="dlg_account_error_register_unmatchpass">Mật mã không trùng khớp, vui lòng nhập lại!!!</string>
+    <string name="dlg_account_error_register_toolongname">Tên hoặc Họ không ngắn hơn 2 ký tự và không vượt quá 24 ký tự.</string>
+    <string name="dlg_account_editting_error_forgot_oldpass">Bạn chưa nhập lại mật khẩu cũ</string>
+    <string name="dlg_account_editting_error_unmatch_oldpass">Mật khẩu cũ không trùng khớp</string>
+    <string name="dlg_user_feedback_unmatch_email">Email không phù hợp, vui lòng nhập lại email (Vd:feedback@gmail.com).</string>
+    <string name="dlg_user_feedback_empty_content">Nội dung không thể để trống, vui lòng nhập nội dung.</string>
+    <string name="dlg_user_feedback_thanks">Cảm ơn bạn đã gửi thông tin ý kiến về ứng dụng!</string>
+    <string name="dlg_login_text_title">Tài khoản của bạn</string>
+    <string name="dlg_login_email_hint">Email</string>
+    <string name="dlg_login_password_hint">Mật mã</string>
+    <string name="dlg_login_button_login">Đăng nhập</string>
+    <string name="dlg_login_text_register">Đăng ký</string>
+    <string name="dlg_login_text_forgot_password">Quên mật khẩu?</string>
+    <string name="dlg_login_text_or">hoặc</string>
+    <string name="dlg_login_succeed">Đăng nhập thành công.</string>
+    <string name="dlg_login_fb_edit">Bạn đang đăng nhập bằng tài khoản facebook. Vì vậy bạn không thể chỉnh sửa thông tin cá nhân.</string>
+    <string name="dlg_forgot_password_succeed">Mật khẩu mới đã được gửi vào email </string>
+    <string name="dlg_login_failed">Đăng nhập thất bại!!</string>
+    <string name="dlg_login_missing_field_emailpass">Bạn quên nhập Email hoặc Mật mã. Vui lòng nhập lại!</string>
+    <string name="dlg_forgot_pass_text_title">Nhập email để nhận mật khẩu mới.</string>
+    <string name="dlg_forgot_pass_send">Gửi</string>
+    <string name="dlg_register_text_link">hoặc kết nối với</string>
+    <string name="dlg_register_text_title">Tạo Tài khoản</string>
+    <!-- hoặc Tạo Tài khoản -->
+    <string name="dlg_register_button_register">Đăng ký</string>
+    <string name="dlg_register_text_name_hint">Tên</string>
+    <string name="dlg_register_text_lastname_hint">Họ</string>
+    <string name="dlg_register_succeed">Đã đăng ký thành công.</string>
+    <string name="dlg_register_failed">Đăng ký thất bại!!</string>
+    <string name="dlg_forgotpassword_failed">Email người dùng không tồn tại</string>
+    <string name="dlg_update_failed">Cập nhật thất bại!!</string>
+    <string name="dlg_update_succeed">Cập nhật thành công.</string>
+    <string name="dlg_register_too_long_field_name">Tên hoặc Họ không ngắn hơn 2 ký tự và không vượt quá 24 ký tự.</string>
+    <string name="dlg_storycomment_compose_title">Ý kiến của bạn</string>
+    <string name="dlg_story_comment_post_succeed">Gửi thành công!!</string>
+    <string name="dlg_poststory_notsuport_type">Xin lỗi, hệ thống hiện tại chưa hỗ trợ gửi định dạng</string>
+    <string name="dlg_poststory_number_of_file">Bạn đã chọn %1$d tập tin trên tổng số %2$d tập tin cho phép.</string>
+    <string name="dlg_poststory_not_enough_data">Bạn cần nhập đầy đủ thông tin.</string>
+    <string name="dlg_poststory_success">Ý kiến của bạn đã được gửi thành công.</string>
+    <string name="dlg_poststory_failed">Thiết bị chưa kết nối internet, xin vui lòng kiểm tra.</string>
+    <string name="dlg_photo_option_title">Chọn ảnh đính kèm</string>
+    <string name="dlg_photo_option_camera_title">Chụp ảnh mới</string>
+    <string name="dlg_photo_option_gallery_title">Chọn ảnh từ bộ nhớ máy</string>
+    <string name="invalid_video_file_size">File cuả bạn lớn hơn 15MB</string>
+    <string name="dlg_video_option_camera_title">Tạo video mới</string>
+    <string name="dlg_video_option_gallery_title">Chọn video từ bộ nhớ máy</string>
+    <string name="social_post_description">Ứng dụng đọc báo </string>
+    <string name="video_of_you">Video của bạn </string>
+    <string name="request_message_dialog">Vui lòng đăng nhập  bằng tài khoản Thanh Nien để sử dụng tính năng này!</string>
+    <string name="social_post_description_full">Ứng dụng đọc báo ThanhNien trên Android.</string>
+    <string name="social_post_link_title">ThanhNien trên Android</string>
+    <string name="social_post_link_url">http://play.google.com/store/apps/details?id=com.gkim.android.thanhniennews</string>
+    <string name="social_post_succeed">Bài đã được chia sẻ thành công.</string>
+    <string name="social_post_failed">Xin lỗi, hiện tại không thể chia sẻ tin này.</string>
+    <string name="social_post_select_mailapp">Vui lòng chọn ứng dụng gửi Mail</string>
+    <string name="request_for_login">Bạn cần đăng nhập để sử dụng chức năng này, vui lòng đăng nhập!!</string>
+    <!-- <string name="section_is_not_available">Chuyên mục này đang được cập nhật. Xin vui lòng chọn chuyên mục khác.</string> -->
+    <string name="section_is_no_data">Chuyên mục này không có dữ liệu.</string>
+    <string name="section_is_not_available">Chuyên mục này đang tiếp tục được cập nhật.</string>
+    <string name="myhome_page_emptystory">Bạn chưa có tin cá nhân nào được thể hiện!!</string>
+    <string name="mystored_page_emptystory">Bạn chưa có tin nào được lưu!!</string>
+    <string name="comment_author_n_count">%1$s (%2$d)</string>
+    <string name="thank_post_story">Cảm ơn, bạn đã gởi thành công!</string>
+    <string name="upload_file_oversize">Tổng số lượng (hoặc tổng dung lượng) tập tin đính kèm đã vượt quá giới hạn (3 tập tin/8MB)!</string>
+    <string name="dlg_feedback_succeed">Gửi ý kiến thành công.</string>
+    <string name="dlg_feedback_failed">>Gửi ý kiến thất bại!!</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+
+    <color name="gray">#ffff0000</color>
+
+    <string name="err">Error</string>
+    <string name="dlg_selectfile_upload_done">Xong</string>
+    <string name="text_newstory_numberfiles">%1$d/%2$d</string>
+    <string name="hint_menu_list_header_search_bar">Tìm kiếm</string>
+    <string name="errcode_201">Bạn cần nhập đầy đủ thông tin đăng ký!</string>
+    <string name="errcode_202">Dữ liệu này không tồn tại!!</string>
+    <string name="errcode_203">Trường dữ liệu yêu cầu không tồn tại!!</string>
+    <string name="errcode_204">Đã đạt dung lượng tối đa được tải lên là 10MB</string>
+    <string name="errcode_301">Missing user information parameters</string>
+    <string name="errcode_302">Email đã tồn tại, vui lòng sử dụng email khác!</string>
+    <string name="errcode_303">Tài khoản này không tồn tại, vui lòng đăng nhập với tài khoản khác!</string>
+    <string name="errcode_304">Email hoặc mật mã sai, vui lòng nhập lại!</string>
+    <string name="errcode_305_title">Mật khẩu không hợp lệ</string>
+    <string name="errcode_305">Mật khẩu phải dài từ 6 ký tự gồm các ký tự chữ hoặc số.</string>
+    <string name="errcode_306">Email không hợp lệ!</string>
+    <string name="errcode_307">Tài khoản không có quyền truy cập dịch vụ này!</string>
+    <string name="errcode_connectionfailed">Lỗi kết nối với server!\r\nVui lòng thử lại sau.</string>
+    <string name="errcode_connectionfailed_reconnect">Lỗi kết nối với server!\r\nHệ thống sẽ tự động thử lại sau 2 giây</string>
+    <string name="menu_setting_pnscheck">Lựa chọn mục cập nhật</string>
+    <string name="menu_setting_feedback">Đóng góp Ý kiến</string>
+    <string name="dlg_editting_text_title">Thay đổi thông tin Tài khoản</string>
+    <string name="dlg_editting_oldpass_hint">Nhập mã cũ</string>
+    <string name="dlg_editting_newpass_hint">Nhập mã mới</string>
+    <string name="dlg_editting_newpass_again_hint">Nhập lại mã mới</string>
+    <string name="dlg_editting_button_save">Lưu</string>
+    <string name="tbtn_storydetail_textmode">Chế độ xem ban đêm</string>
+    <string name="title_activity_story_detail_comment">Story detail comments</string>
+    <string name="dlg_pnscheck_title">Chọn chuyên mục\r\nbạn muốn nhận thông báo</string>
+    <string name="dlg_pnscheck_title_selectall">Chọn tất cả</string>
+    <string name="dlg_pnscheck_title_cancelall">Bỏ chọn tất cả</string>
+    <string name="dlg_pnscheck_title_agree">Đồng ý</string>
+    <string name="dlg_pnssuccess_content">Đăng ký PNS chuyên mục thành công</string>
+    <string name="dlg_pnsfailed_content">Đăng ký PNS chuyên mục không thành công</string>
+    <string name="dlg_pnsempty_content">Bạn chưa chọn chuyên mục để nhận thông báo</string>
+    <string name="dlg_pnssuccess_agree">Đồng ý</string>
+    <string name="video_home_txt_bottom">&#169;2014 Thanh Nien</string>
+    <string name="video_menu_text">Gửi video</string>
+    
+    
+    
+    
+    <string-array name="string_vn_days">
+        <item></item>
+        <item></item>
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ nhật</item>
+    </string-array>
+    <string-array name="string_en_days">
+        <item></item>
+        <item></item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+        <item>sun</item>
+    </string-array>
+
+    <string name="rating_dialog_confirm_yes">Đánh giá</string>
+    <string name="rating_dialog_confirm_no">@string/close_application_confirm_no</string>
+    <string name="rating_dialog_message">Bạn có thích ứng dụng không?\r\nVui lòng dành 15 giây để đánh giá.</string>
+    <string name="rating_dialog_confirm_notnow">Để lần sau</string>
+
+    <!-- spring 2015 -->
+    <string name="xuan_2014">Xuân 2015</string>
+    <string name="loi_chuc_xuan_2014">Lời chúc Xuân 2015</string>
+    <string name="tet_cua_ban">Tết của bạn</string>
+    <string name="spring_date">Thư Ngô - Thư hai, 13.01.2015</string>
+    <string name="spring_share_your_wish">Gửi lời chúc của bạn</string>
+    <string name="webevent_worldcup2014_url">http://m.thanhnien.com.vn/worldcup/index.php?app=1</string>
+    <string name="webevent_page_failedtoload">Tải trang không thành công!\r\nVui lòng kiểm tra lại kết nối.
+</string>
+
+    <string name="txt_no_gps_on">Bạn cần phải bật chức năng GPS để xác định vị trí </string>
+    <string name="no_gps_btn1">Đồng ý</string>
+    <string name="no_gps_btn2">Không hiện nữa</string>
+    <string name="no_gps_btn3">Không</string>
+
+</resources>

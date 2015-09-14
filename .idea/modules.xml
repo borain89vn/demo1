@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ThanhNiewNewsXuan-AS.iml" filepath="$PROJECT_DIR$/ThanhNiewNewsXuan-AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knxariseandroid/knxariseandroid.iml" filepath="$PROJECT_DIR$/knxariseandroid/knxariseandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thanhNienNews/thanhNienNews.iml" filepath="$PROJECT_DIR$/thanhNienNews/thanhNienNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thanhNienNewslib_FaceBook/thanhNienNewslib_FaceBook.iml" filepath="$PROJECT_DIR$/thanhNienNewslib_FaceBook/thanhNienNewslib_FaceBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thanhNienNewslib_pulltorefresh/thanhNienNewslib_pulltorefresh.iml" filepath="$PROJECT_DIR$/thanhNienNewslib_pulltorefresh/thanhNienNewslib_pulltorefresh.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="imageButton">Nút</string>
+    <string name="imageView">Ảnh</string>
+    <string name="txtARListTitle">Available ARs</string>
+    <string name="txtAbout">Giới thiệu</string>
+    <string name="txtBack">Trở về</string>
+    <string name="txtBookmark">ĐÁNH DẤU</string>
+    <string name="txtBookmarked">Đã đánh dấu</string>
+    <string name="txtBookmarking">Đang đánh dấu...</string>
+    <string name="txtCall">Gọi</string>
+    <string name="txtCancel">Huỷ</string>
+    <string name="txtClear">Xóa</string>
+    <string name="txtClearBookmark">Xoá đánh đấu</string>
+    <string name="txtClearData">Xóa dữ liệu</string>
+    <string name="txtClearHistory">Xoá lịch sử truy cập</string>
+    <string name="txtConfirmClearBookmark">Bạn có muốn xoá hết các đánh dấu đã chọn?</string>
+    <string name="txtConfirmClearData">Bạn có muốn xoá hết các dữ liệu đã được lưu?</string>
+    <string name="txtConfirmClearHistory">Bạn có muốn xoá hết các truy cập đã chọn?</string>
+    <string name="txtConfirmDelete">Bạn có muốn xoá các mục đã chọn?</string>
+    <string name="txtDelete">Xóa</string>
+    <string name="txtEnable">Kích hoạt</string>
+    <string name="txtGPSDisable">Dịch vụ Định vị bị tắt</string>
+    <string name="txtGuide">Hướng dẫn</string>
+    <string name="txtInstructionText">Scan bài viết\nvới logo</string>
+    <string name="txtItem"> mục</string>
+    <string name="txtItems"> mục</string>
+    <string name="txtLoading">Đang tải...</string>
+    <string name="txtMsgEnableGPS">Phần mềm này cần truy cập thông tin Vị trí của bạn. Xin vui lòng mở Dịch vụ Định vị.</string>
+    <string name="txtNetworkError">Lỗi kết nối</string>
+    <string name="txtNo">Không</string>
+    <string name="txtNoConnection">Không có kết nối mạng</string>
+    <string name="txtNoItemFound">Không tìm thấy</string>
+    <string name="txtOpenCameraFail">Không mở được camera, vui lòng thử lại sau.</string>
+    <string name="txtPauseCapturing">Đang dừng nhận diện...</string>
+    <string name="txtPleaseWait">Vui lòng đợi...</string>
+    <string name="txtRecents">GẦN ĐÂY</string>
+    <string name="txtResumeCapturing">Tiếp tục nhận diện...</string>
+    <string name="txtRunInBackground">Chạy nền</string>
+    <string name="txtSDKName">ARise Mobile SDK</string>
+    <string name="txtSelectAR">Chọn AR</string>
+    <string name="txtSettings">Cài đặt</string>
+    <string name="txtShowing">Hiển thị </string>
+    <string name="txtSlowConnection">Kết nối mạng chậm</string>
+    <string name="txtUpdating">Đang cập nhật...</string>
+    <string name="txtVersion">Phiên bản</string>
+    <string name="txtVideo">Video</string>
+    <string name="txtYes">Đồng ý</string>
+    <string name="txtYoutubeError">Có lỗi xảy ra khi khởi tạo YouTubePlayer</string>
+</resources>

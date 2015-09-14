@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/storydetail_relayout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <com.gkxim.android.thanhniennews.spring.HFGridView
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/springgallery_header"
+        android:layout_marginBottom="@dimen/menu_bar_height"
+        android:background="@android:color/transparent" />
+
+	<include
+        android:id="@+id/springgallery_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/guiheader"
+        layout="@layout/spring_header" />
+	
+    <com.gkxim.android.thanhniennews.layout.GUIListMenuListView
+        android:id="@+id/guimenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/menu_list_header_padding_top"
+        android:visibility="gone" >
+    </com.gkxim.android.thanhniennews.layout.GUIListMenuListView>
+
+    <com.gkxim.android.thanhniennews.layout.GUIHeader
+        android:id="@+id/guiheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.gkxim.android.thanhniennews.layout.GUIHeader>
+
+    
+    
+    <com.gkxim.android.thanhniennews.spring.GUIStoryFooterSpring
+        android:id="@+id/guifooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    </com.gkxim.android.thanhniennews.spring.GUIStoryFooterSpring>
+
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/activity_gallery.xml -->

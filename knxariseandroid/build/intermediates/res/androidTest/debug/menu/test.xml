@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/exitBtn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Exit Application"/>
+
+</menu><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/menu/test.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/build/intermediates/bundles/debug/res/menu/test.xml -->

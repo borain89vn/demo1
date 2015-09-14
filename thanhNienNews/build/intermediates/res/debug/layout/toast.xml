@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tbrlay_toast_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_contentdescription"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_menu_divider" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/image_contentdescription"
+        android:padding="@dimen/menu_header_padding_top"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tbrlay_toast_title"
+        android:layout_toRightOf="@+id/imageView1"
+        android:contentDescription="@string/image_contentdescription"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_menu_divider" />
+
+    <TextView
+        android:id="@+id/tbrlay_toast_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="@null"
+        android:text="@string/toast_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/storydetail_comment_author" />
+
+    <TextView
+        android:id="@+id/toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tbrlay_toast_title"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="@null"
+         android:textColor="@color/toast_message_content" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/toast.xml -->

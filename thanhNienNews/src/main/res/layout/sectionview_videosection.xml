@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/section_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <TextView
+        android:id="@+id/tv_section_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/section_category_title_padding_left"
+        android:splitMotionEvents="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/section_header_title"
+        android:textSize="@dimen/section_category_title_textsize"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_section_separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/section_separator_date_padingtop"
+        android:paddingTop="@dimen/section_separator_date_padingtop"
+        android:splitMotionEvents="false"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:splitMotionEvents="false"
+            android:src="@drawable/line_storydetail_title" />
+
+        <TextView
+            android:id="@+id/tv_section_separator_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/section_separator_date_padingleft"
+            android:paddingRight="@dimen/section_separator_date_padingleft"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/box_hasread_textcolor" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:splitMotionEvents="false"
+            android:src="@drawable/line_storydetail_title" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_section_headevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner_worldcup_main"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+
+    <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/api_key_admob"/>
+
+    <include layout="@layout/springview" />
+
+    <com.gkxim.android.thanhniennews.layout.VideoSectionLayout
+        xmlns:app="http://schemas.android.com/apk/res/com.gkim.thanhniennews"
+        android:id="@+id/blSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false"
+        app:maxColumns="@integer/section_video_page_max_cols" >
+        
+    </com.gkxim.android.thanhniennews.layout.VideoSectionLayout>
+</LinearLayout>

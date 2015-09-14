@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:id="@+id/storydetail_sv_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="@dimen/menu_bar_height"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/api_key_admob" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/storydetail_sv_pulltorefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="pullFromStart" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:orientation="vertical" 
+            android:paddingBottom="@dimen/ads_medium_bottom_padding"
+            >
+
+            <ProgressBar
+                android:id="@+id/pb_storydetail_processing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_storydetail_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="@dimen/menu_header_padding_top"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/storydetail_header_title"
+                android:textSize="@dimen/storydetail_category_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_storydetail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="@dimen/menu_header_padding_top"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/storydetail_header_title"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/menu_header_padding_top"
+                android:background="@drawable/line_storydetail_title"
+                android:contentDescription="@string/image_contentdescription"
+                android:src="@null" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_storydetail_author"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/menu_header_padding_top"
+                    android:textColor="@color/storydetail_header_author"
+                    android:textSize="@dimen/storydetail_about_textsize"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/tv_storydetail_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:paddingRight="@dimen/menu_header_date_padding_right"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/storydetail_header_author"
+                    android:textSize="@dimen/storydetail_about_textsize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_storydetail_topimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/menu_header_padding_top"
+                android:background="@null" >
+
+                <ImageView
+                    android:id="@+id/imv_storydetail_topimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/storydetail_comment_top_image_height"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:contentDescription="@string/image_contentdescription"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_storydetail_topimage_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:background="@null"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <FrameLayout
+                        android:id="@+id/fl_storydetail_video"
+                        android:layout_width="52dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom|left"
+                        android:visibility="gone" >
+
+                        <Button
+                            android:id="@+id/bt_storydetail_video"
+                            android:layout_width="45dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/ic_storydetail_video"
+                            android:contentDescription="@string/image_contentdescription" />
+
+                        <TextView
+                            android:id="@+id/tv_storydetail_topvideo_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/ic_storydetail_bg_number"
+                            android:gravity="center"
+                            android:textColor="@android:color/white" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/fl_storydetail_image"
+                        android:layout_width="53dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom|left"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone" >
+
+                        <Button
+                            android:id="@+id/bt_storydetail_image"
+                            android:layout_width="45dp"
+                            android:layout_height="34dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/ic_storydetail_image"
+                            android:contentDescription="@string/image_contentdescription" />
+
+                        <TextView
+                            android:id="@+id/tv_storydetail_topimage_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="1dp"
+                            android:background="@drawable/ic_storydetail_bg_number"
+                            android:gravity="center"
+                            android:textColor="@android:color/white" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <WebView
+                android:id="@+id/wv_storydetail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/menu_header_padding_top"
+                android:layout_marginRight="@dimen/menu_header_padding_top"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scrollbars="none"
+                />
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ads_medium_bottom_margin"
+                ads:adSize="MEDIUM_RECTANGLE"
+                ads:adUnitId="@string/api_key_admob" />
+
+            <ExpandableListView
+                android:id="@+id/elv_storydetail_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:groupIndicator="@null"
+                android:scrollbars="none" >
+            </ExpandableListView>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/storydetail_storycontent.xml -->

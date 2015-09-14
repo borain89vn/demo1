@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_theme_color">#830DBD</color>
+    <color name="default_text_color">#FFFFFF</color>
+    
+    <!-- alpha is around 0.7 -->
+    <color name="dim_background">#B3000000</color>
+    
+    <!-- Mu Pdf -->
+    <color name="button_normal">#00000000</color>
+    <color name="button_pressed">#8C8C8C8C</color>
+    <color name="text_pressed">#FFFFFF</color>
+    <color name="text_border_normal">#8C8C8C</color>
+    <color name="text_border_pressed">#2572AC</color>
+    <color name="text_border_focused">#8C8C8C</color>
+    
+    <color name="header">#FF33B5E5</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="thumbnail_selected_background">#BBA8A8A8</color>
+</resources>

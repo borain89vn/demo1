@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_bg_height"
+    android:background="@color/background_video_header"
+    android:splitMotionEvents="false" >
+
+    <ImageView
+            android:id="@+id/imgv_horse_phone"
+            android:layout_width="@dimen/menu_horse_phone_width"
+            android:layout_height="@dimen/menu_horse_phone_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/menu_header_logo_margin_bottom"
+            android:background="@drawable/horse_phone"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:visibility="gone" />
+
+    <ImageView
+            android:id="@+id/imgv_horse_tablet"
+            android:layout_width="@dimen/menu_horse_tablet_width"
+            android:layout_height="@dimen/menu_horse_tablet_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="@dimen/menu_horse_tablet_margin_left"
+            android:background="@drawable/horse_tablet"
+            android:contentDescription="@string/image_contentdescription"
+            android:splitMotionEvents="false"
+            android:visibility="gone" />
+    <ImageView
+        android:id="@+id/header_iv_logo"
+        android:layout_width="@dimen/video_bar_logo_width"
+        android:layout_height="@dimen/video_bar_logo_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="@dimen/menu_header_logo_margin_bottom"
+        android:contentDescription="@string/image_contentdescription"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_menu_logo" />
+
+    <ImageButton
+        android:id="@+id/header_ib_menu"
+        android:layout_width="@dimen/video_bar_logo_height"
+        android:layout_height="@dimen/video_bar_logo_height"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="@dimen/menu_header_icon_menu_padding_left"
+        android:background="@null"
+        android:contentDescription="@string/image_contentdescription"
+        android:padding="@dimen/video_bar_menu_padding"
+        android:scaleType="centerInside"
+        android:splitMotionEvents="false"
+        android:src="@drawable/ic_video_header_menu" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/menu_header_icon_menu_padding_left"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false" >
+
+        <TextView
+            android:id="@+id/header_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/menu_header_date_marginright"
+            android:drawableLeft="@drawable/ic_menu_barheader_separator"
+            android:drawablePadding="@dimen/menu_header_date_seperator_padding_right"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/menu_header_date_seperator_marginbottom"
+            android:paddingTop="@dimen/menu_header_date_seperator_marginbottom"
+            android:splitMotionEvents="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/menu_header_date_textsize"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/video_header_ib_home"
+            android:layout_width="@dimen/video_bar_logo_height"
+            android:layout_height="@dimen/video_bar_logo_height"
+            android:background="@null"
+            android:contentDescription="@string/image_contentdescription"
+            android:padding="@dimen/video_bar_menu_padding"
+            android:scaleType="centerCrop"
+            android:splitMotionEvents="false"
+            android:src="@drawable/ic_video_header_home" />
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/bar_header_video.xml -->

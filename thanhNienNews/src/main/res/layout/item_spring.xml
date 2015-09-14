@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:focusable="false"
+    android:orientation="horizontal"
+    android:splitMotionEvents="false" >
+
+    <ImageView
+        android:id="@+id/imgb_spring_icon"
+        android:layout_width="@dimen/spring_width_icon"
+        android:layout_height="@dimen/spring_width_icon"
+        android:layout_gravity="top|left"
+        android:layout_marginRight="@dimen/menu_header_padding_top"
+        android:contentDescription="@string/image_contentdescription"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:focusable="false"
+        android:orientation="vertical"
+        >
+
+        <WebView
+            android:id="@+id/wv_spring_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="0dp"
+            android:scrollbars="none" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_spring_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/menu_header_padding_top"
+            android:layout_marginRight="@dimen/menu_header_padding_top"
+            android:background="@null"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/storydetail_comment_title"
+            android:text="tet"/>
+
+        <TextView
+            android:id="@+id/txt_spring_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spring_date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="@dimen/menu_header_padding_top"
+            android:textSize="@dimen/storydetail_comment_author"
+            android:textColor="@color/spring_date"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imgb_spring_bottom"
+            android:layout_width="@dimen/spring_sep_width"
+            android:layout_height="@dimen/spring_sep_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/hoadao"
+            android:contentDescription="@string/image_contentdescription" />
+    </LinearLayout>
+
+</LinearLayout>

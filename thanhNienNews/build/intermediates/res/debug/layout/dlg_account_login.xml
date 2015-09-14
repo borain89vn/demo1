@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="@dimen/margin_button_close_dialog" 
+        android:background="#00000000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_dialog_login"
+            android:gravity="center"
+            android:padding="@dimen/margin_button_close_dialog" 
+            android:layoutAnimation="@animator/dlg_anim_inright" 
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/image_contentdescription"
+                android:src="@drawable/ic_dlg_logo" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/image_contentdescription"
+                android:paddingTop="10dp"
+                android:src="@drawable/line_dlg_separator" />
+
+            <ScrollView
+                android:id="@+id/sv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_dlg_account_login_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:text="@string/dlg_login_text_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+
+                    <EditText
+                        android:id="@+id/ed_dlg_account_login_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/menu_list_item_padding_top"
+                        android:layout_marginRight="@dimen/menu_list_item_padding_top"
+                        android:layout_marginTop="@dimen/menu_list_item_padding_top"
+                        android:background="@drawable/bg_dialog_login_textview"
+                        android:ems="10"
+                        android:hint="@string/dlg_login_email_hint"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:textColor="@android:color/white" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/ed_dlg_account_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menu_list_item_padding_top"
+                        android:background="@drawable/bg_dialog_login_textview"
+                        android:ems="10"
+                        android:hint="@string/dlg_login_password_hint"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:textColor="@android:color/white" />
+                    
+				 	<TextView
+                           android:id="@+id/tv_dlg_account_login_text_forgot_password"
+                           android:padding="@dimen/menu_header_padding_top"
+                           android:layout_margin="@dimen/menu_list_item_padding_top"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:clickable="true"
+                           android:text="@string/dlg_login_text_forgot_password"
+                           android:textAppearance="?android:attr/textAppearanceSmall"
+                           android:textColor="@color/menu_list_item_text" />
+                    <Button
+                        android:id="@+id/btn_dlg_account_login_dologin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/bt_login_size"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/menu_list_item_padding_top"
+                        android:layout_marginTop="@dimen/menu_list_item_padding_top"
+                        android:background="@drawable/bg_dialog_login_button"
+                        android:paddingLeft="@dimen/menu_list_header_padding_top"
+                        android:paddingRight="@dimen/menu_list_header_padding_top"
+                        android:text="@string/dlg_login_button_login"
+                        android:textColor="@color/menu_list_item_text"
+                        android:textSize="@dimen/bt_login_text_size" />
+					<ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menu_header_padding_top"
+                        android:background="@null"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:src="@drawable/line_dlg_separator" />
+
+                    <TextView
+                        android:id="@+id/tv_dlg_account_register_linkfb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:drawablePadding="@dimen/menu_header_padding_top"
+                        android:drawableRight="@drawable/ic_dlg_register_facebook"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/menu_list_item_padding_top"
+                        android:paddingTop="@dimen/menu_list_item_padding_top"
+                        android:text="@string/dlg_register_text_link"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/menu_list_item_text" />
+                    
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menu_header_padding_top"
+                        android:background="@null"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:src="@drawable/line_dlg_separator" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_dlg_account_login_text_or"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:text="@string/dlg_login_text_or"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/menu_list_item_text" />
+
+                        <TextView
+                            android:id="@+id/tv_dlg_account_login_register"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/menu_list_item_padding_top"
+                            android:clickable="true"
+                            android:text="@string/dlg_login_text_register"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/menu_list_item_text" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menu_header_padding_top"
+                        android:background="@null"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:src="@drawable/line_dlg_separator" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        
+    </FrameLayout>
+	<ImageView
+            android:id="@+id/id_bt_close_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/image_contentdescription"
+            android:src="@drawable/bt_close_dialog" />
+</FrameLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/layout/dlg_account_login.xml -->

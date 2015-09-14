@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tooltipContainer"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="#DD000000" >
+
+    <ImageView
+        android:id="@+id/tooltipImage"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/imageView"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_button_red" />
+
+    <TextView
+        android:id="@+id/tooltipText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/tooltipHideButton"
+        android:layout_toRightOf="@+id/tooltipImage"
+        android:gravity="left|center"
+        android:text="Avoid blur, glare and shadow while scanning."
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/tooltipHideButton"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:gravity="center"
+        android:text="Hide"
+        android:textColor="#0000FF" />
+
+</RelativeLayout>

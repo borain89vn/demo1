@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_one_button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/dialog_one_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textColor="@color/default_theme_color"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    
+    <View
+        android:id="@+id/dialog_one_button_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/default_theme_color"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    
+    <TextView
+        android:id="@+id/dialog_one_button_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    
+    <Button
+        android:id="@+id/dialog_one_button_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/default_theme_color" />
+
+</LinearLayout><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/layout/dialog_one_button.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/ThanhNiewNewsXuan-AS/knxariseandroid/unspecified/res/layout/dialog_one_button.xml -->

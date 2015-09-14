@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mimas_sdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/knxariseandroid/libs/mimas_sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

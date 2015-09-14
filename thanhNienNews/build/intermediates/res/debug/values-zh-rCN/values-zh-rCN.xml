@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"某个应用要求启用 Google Play 服务。"</string>
+    <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"某个应用要求安装 Google Play 服务。"</string>
+    <string msgid="6488605506794595966" name="auth_client_needs_update_title">"某个应用要求更新 Google Play 服务。"</string>
+    <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Google Play 服务出错"</string>
+    <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"由“<ns1:g id="APP_NAME">%1$s</ns1:g>”发出"</string>
+    <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"某个应用尝试使用的 Google Play 服务版本有误。"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"启用 Google Play 服务"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务才能运行此应用。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"获取 Google Play 服务"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"您的手机中没有 Google Play 服务，您必须先安装该服务才能运行此应用。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"您的平板电脑中没有 Google Play 服务，您必须先安装该服务才能运行此应用。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"此设备上不存在指定的帐户，请选择其他帐户。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"无效帐户"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"您必须有数据网络连接才能接入 Google Play 服务。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"网络错误"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play 服务出现未知问题。"</string>
+    <string msgid="4725396522367789365" name="common_google_play_services_unsupported_date_text">"设备上的日期似乎不正确，请在设备上检查日期。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"您的设备不支持部分应用所依赖的 Google Play 服务。请与设备制造商联系，以寻求帮助。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play 服务"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务才能运行此应用。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"登录"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"使用 Google 帐户登录"</string>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/build/intermediates/exploded-aar/ThanhNiewNewsXuan-AS/knxariseandroid/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="imageButton">button</string>
+    <string name="imageView">image</string>
+    <string name="txtBack">返回</string>
+    <string name="txtBookmark">插入书签</string>
+    <string name="txtBookmarked">插入书签了</string>
+    <string name="txtCall">电话联络</string>
+    <string name="txtCancel">取消</string>
+    <string name="txtClear">删除</string>
+    <string name="txtClearBookmark">删除书签</string>
+    <string name="txtClearData">Clear data</string>
+    <string name="txtClearHistory">删除浏览记录</string>
+    <string name="txtConfirmClearBookmark">确定删除书签吗？</string>
+    <string name="txtConfirmClearData">Are you sure you want to clear all your saved data?</string>
+    <string name="txtConfirmClearHistory">确定删除浏览记录吗？</string>
+    <string name="txtConfirmDelete">确定删除选项吗？</string>
+    <string name="txtDelete">删除</string>
+    <string name="txtEnable">Enable</string>
+    <string name="txtGPSDisable">取消定位服务</string>
+    <string name="txtGuide">指南</string>
+    <string name="txtInstructionText">Scan pages with\nthis logo</string>
+    <string name="txtItem">个文件</string>
+    <string name="txtItems">个文件</string>
+    <string name="txtLoading">稍候，等待</string>
+    <string name="txtMsgEnableGPS">此应用程序需用定位服务。请打开定位服务。</string>
+    <string name="txtNetworkError">连接网络失败</string>
+    <string name="txtNo">否定</string>
+    <string name="txtNoConnection">没有网络连接</string>
+    <string name="txtNoItemFound">沒有找到文件</string>
+    <string name="txtOpenCameraFail">无法启动像头，请稍候重试</string>
+    <string name="txtPauseCapturing">暂停像头捕获设备</string>
+    <string name="txtPleaseWait">请稍等</string>
+    <string name="txtRecents">近期文档记录</string>
+    <string name="txtResumeCapturing">恢复像头捕获设备</string>
+    <string name="txtRunInBackground">后台运行</string>
+    <string name="txtSelectAR">选择AR</string>
+    <string name="txtSettings">设置</string>
+    <string name="txtShowing">显示</string>
+    <string name="txtSlowConnection">连接速度缓慢</string>
+    <string name="txtUpdating">正在更新</string>
+    <string name="txtVersion">版本</string>
+    <string name="txtVideo">视频</string>
+    <string name="txtYes">确定</string>
+    <string name="txtYoutubeError">无法启动YouTube</string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#00000000" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:padding="@dimen/margin_button_close_dialog" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_dialog_login"
+                android:gravity="center"
+                android:layoutAnimation="@animator/dlg_anim_inright"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_button_close_dialog" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/id_dlg_create_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:src="@drawable/ic_menu_storydetail_back" />
+
+                    <TextView
+                        android:id="@+id/tv_dlg_account_register_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:text="@string/dlg_register_text_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@string/image_contentdescription"
+                    android:src="@drawable/line_dlg_separator" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_list_item_padding_top" >
+
+                    <EditText
+                        android:id="@+id/ed_dlg_account_register_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_margin="@dimen/menu_list_item_padding_top"
+                        android:background="@drawable/bg_dialog_login_textview"
+                        android:ems="10"
+                        android:hint="@string/dlg_login_email_hint"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:textColor="@android:color/white" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/imv_dlg_account_register_avartar"
+                        android:layout_width="@dimen/dlg_account_register_avatar_size"
+                        android:layout_height="@dimen/dlg_account_register_avatar_size"
+                        android:layout_alignRight="@+id/ed_dlg_account_register_email"
+                        android:layout_below="@+id/ed_dlg_account_register_email"
+                        android:contentDescription="@string/image_contentdescription"
+                        android:src="@drawable/ic_dlg_register_avatar"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/ed_dlg_account_register_password1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/ed_dlg_account_register_email"
+                        android:layout_alignRight="@+id/ed_dlg_account_register_email"
+                        android:layout_below="@+id/ed_dlg_account_register_email"
+                        android:background="@drawable/bg_dialog_login_textview"
+                        android:ems="10"
+                        android:hint="@string/dlg_login_password_hint"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:textColor="@android:color/white" >
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/ed_dlg_account_register_password2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/ed_dlg_account_register_password1"
+                        android:layout_alignRight="@+id/ed_dlg_account_register_password1"
+                        android:layout_below="@+id/ed_dlg_account_register_password1"
+                        android:layout_marginTop="@dimen/menu_list_item_padding_top"
+                        android:background="@drawable/bg_dialog_login_textview"
+                        android:ems="10"
+                        android:hint="@string/dlg_login_password_hint"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/menu_header_padding_top"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menu_header_padding_top"
+                    android:background="@null"
+                    android:contentDescription="@string/image_contentdescription"
+                    android:src="@drawable/line_dlg_separator" />
+
+                <EditText
+                    android:id="@+id/ed_dlg_account_register_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/menu_list_item_padding_top"
+                    android:layout_marginRight="@dimen/menu_list_item_padding_top"
+                    android:layout_marginTop="@dimen/menu_list_item_padding_top"
+                    android:background="@drawable/bg_dialog_login_textview"
+                    android:ems="10"
+                    android:hint="@string/dlg_register_text_name_hint"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/menu_header_padding_top"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/ed_dlg_account_register_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menu_list_item_padding_top"
+                    android:background="@drawable/bg_dialog_login_textview"
+                    android:ems="10"
+                    android:hint="@string/dlg_register_text_lastname_hint"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/menu_header_padding_top"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menu_list_item_padding_top"
+                    android:background="@null"
+                    android:contentDescription="@string/image_contentdescription"
+                    android:src="@drawable/line_dlg_separator" />
+
+                <Button
+                    android:id="@+id/btn_dlg_account_register_doregister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/bt_login_size"
+                    android:layout_marginBottom="@dimen/menu_list_item_padding_top"
+                    android:layout_marginTop="@dimen/menu_list_item_padding_top"
+                    android:background="@drawable/bg_dialog_login_button"
+                    android:paddingLeft="@dimen/menu_list_header_padding_top"
+                    android:paddingRight="@dimen/menu_list_header_padding_top"
+                    android:text="@string/dlg_register_button_register"
+                    android:textColor="@color/menu_list_item_text"
+                    android:textSize="@dimen/bt_login_text_size" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/id_bt_close_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:contentDescription="@string/image_contentdescription"
+            android:src="@drawable/bt_close_dialog" />
+    </FrameLayout>
+
+</ScrollView>

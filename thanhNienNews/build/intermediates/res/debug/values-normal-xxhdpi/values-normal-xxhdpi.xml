@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/values-normal-480dpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="home_box_icon_margin_right">5dp</dimen>
+    <dimen name="margin_button_close_dialog">15dp</dimen>
+    <dimen name="menu_header_divider_padding">1dp</dimen>
+    <dimen name="menu_header_height">40dp</dimen>
+    <dimen name="menu_header_margin_left">5dp</dimen>
+    <dimen name="menu_header_padding_top">5dp</dimen>
+    <dimen name="menu_list_header_padding_top">20dp</dimen>
+    <dimen name="menu_list_header_padding_top2">@dimen/menu_list_header_padding_top</dimen>
+    <dimen name="menu_list_header_search_icon_padding_left">3dp</dimen>
+    <dimen name="menu_list_header_search_icon_padding_right">@dimen/menu_list_header_search_icon_padding_left</dimen>
+    <dimen name="menu_list_item_height">40dp</dimen>
+    <dimen name="menu_list_item_padding_top">7dp</dimen>
+    <dimen name="menu_list_item_text_size">17sp</dimen>
+    <dimen name="menu_list_text_size">16sp</dimen>
+    <dimen name="menu_row_item_icon_height">40dp</dimen>
+    <dimen name="menu_row_item_icon_margin">3dp</dimen>
+    <dimen name="menu_row_item_icon_width">@dimen/menu_row_item_icon_height</dimen>
+    <dimen name="menu_setting_dialog_height">300dp</dimen>
+    <dimen name="storydetail_comment_top_image_height">250dp</dimen>
+    <dimen name="storydetail_content_textsize">6sp</dimen>
+    <dimen name="storydetail_review_image_caption_textsize">18sp</dimen>
+    <dimen name="video_home_box_text_size">18sp</dimen>
+    <dimen name="video_home_top_box_align">33dp</dimen>
+    <dimen name="video_home_top_box_sheight">55dp</dimen>
+</resources>

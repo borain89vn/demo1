@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_dialog_loginout"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imv_poststory_review_file"
+        android:layout_width="@dimen/dlg_poststory_review_image_size"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_contentdescription"
+        android:src="@drawable/ic_lauching"
+        android:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/vidv_poststory_review_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <MediaController
+        android:id="@+id/medv_poststory_review_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+    </MediaController>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_poststory_review_fileok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Chọn" />
+
+        <Button
+            android:id="@+id/btn_poststory_review_filecancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Không" />
+
+    </LinearLayout>
+
+</LinearLayout>

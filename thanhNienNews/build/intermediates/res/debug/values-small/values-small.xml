@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/values-small/integers.xml -->
+    <eat-comment/>
+    <dimen name="dlg_poststory_review_image_size">120dp</dimen>
+    <dimen name="margin_button_close_dialog">15dp</dimen>
+    <dimen name="menu_header_divider_padding">1dp</dimen>
+    <dimen name="menu_header_height">30dp</dimen>
+    <dimen name="menu_header_margin_left">0dp</dimen>
+    <dimen name="menu_header_padding_top">5dp</dimen>
+    <dimen name="menu_list_header_padding_top">20dp</dimen>
+    <dimen name="menu_list_header_padding_top2">@dimen/menu_list_header_padding_top</dimen>
+    <dimen name="menu_list_item_height">30dp</dimen>
+    <dimen name="menu_list_item_padding_top">7dp</dimen>
+    <dimen name="menu_list_item_text_size">8sp</dimen>
+    <dimen name="menu_setting_dialog_width">240dp</dimen>
+    <integer name="boxcellsize">70</integer>
+    <integer name="middlepadding">5</integer>
+    <integer name="outsidepadding">10</integer>
+    <integer name="section_max_cols">3</integer>
+</resources>

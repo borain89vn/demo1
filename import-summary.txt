@@ -1,0 +1,981 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From ThanhNienNews:
+* .idea\
+* .idea\.name
+* .idea\ThanhNiewNewsXuan.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ant.properties
+* build.xml
+* genmanifest.xml
+* libsources\
+* libsources\facebook\
+* libsources\facebook\.classpath
+* libsources\facebook\.project
+* libsources\facebook\AndroidManifest.xml
+* libsources\facebook\ant.properties
+* libsources\facebook\bin\
+* libsources\facebook\bin\thanhniennewslib_facebook.jar
+* libsources\facebook\build.xml
+* libsources\facebook\libs\
+* libsources\facebook\libs\android-support-v4.jar
+* libsources\facebook\local.properties
+* libsources\facebook\project.properties
+* libsources\facebook\res\
+* libsources\facebook\res\drawable-hdpi\
+* libsources\facebook\res\drawable-hdpi\com_facebook_button_grey_focused.9.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_button_grey_normal.9.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_button_grey_pressed.9.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_close.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_icon.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_loginbutton_blue_focused.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_loginbutton_blue_normal.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_loginbutton_blue_pressed.png
+* libsources\facebook\res\drawable-hdpi\com_facebook_logo.png
+* libsources\facebook\res\drawable-ldpi\
+* libsources\facebook\res\drawable-ldpi\com_facebook_close.png
+* libsources\facebook\res\drawable-ldpi\com_facebook_icon.png
+* libsources\facebook\res\drawable-xhdpi\
+* libsources\facebook\res\drawable-xhdpi\com_facebook_button_grey_focused.9.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_button_grey_normal.9.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_button_grey_pressed.9.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_close.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_loginbutton_blue_focused.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_loginbutton_blue_normal.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_loginbutton_blue_pressed.png
+* libsources\facebook\res\drawable-xhdpi\com_facebook_logo.png
+* libsources\facebook\res\drawable\
+* libsources\facebook\res\drawable\com_facebook_button_check.xml
+* libsources\facebook\res\drawable\com_facebook_button_check_off.png
+* libsources\facebook\res\drawable\com_facebook_button_check_on.png
+* libsources\facebook\res\drawable\com_facebook_button_grey_focused.9.png
+* libsources\facebook\res\drawable\com_facebook_button_grey_normal.9.png
+* libsources\facebook\res\drawable\com_facebook_button_grey_pressed.9.png
+* libsources\facebook\res\drawable\com_facebook_close.png
+* libsources\facebook\res\drawable\com_facebook_icon.png
+* libsources\facebook\res\drawable\com_facebook_list_divider.9.png
+* libsources\facebook\res\drawable\com_facebook_list_section_header_background.9.png
+* libsources\facebook\res\drawable\com_facebook_loginbutton_blue.xml
+* libsources\facebook\res\drawable\com_facebook_loginbutton_blue_focused.png
+* libsources\facebook\res\drawable\com_facebook_loginbutton_blue_normal.png
+* libsources\facebook\res\drawable\com_facebook_loginbutton_blue_pressed.png
+* libsources\facebook\res\drawable\com_facebook_loginbutton_silver.xml
+* libsources\facebook\res\drawable\com_facebook_logo.png
+* libsources\facebook\res\drawable\com_facebook_picker_item_background.xml
+* libsources\facebook\res\drawable\com_facebook_picker_list_focused.9.png
+* libsources\facebook\res\drawable\com_facebook_picker_list_longpressed.9.png
+* libsources\facebook\res\drawable\com_facebook_picker_list_pressed.9.png
+* libsources\facebook\res\drawable\com_facebook_picker_list_selector.xml
+* libsources\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml
+* libsources\facebook\res\drawable\com_facebook_picker_list_selector_disabled.9.png
+* libsources\facebook\res\drawable\com_facebook_picker_top_button.xml
+* libsources\facebook\res\drawable\com_facebook_place_default_icon.png
+* libsources\facebook\res\drawable\com_facebook_profile_default_icon.png
+* libsources\facebook\res\drawable\com_facebook_profile_picture_blank_portrait.png
+* libsources\facebook\res\drawable\com_facebook_profile_picture_blank_square.png
+* libsources\facebook\res\drawable\com_facebook_top_background.xml
+* libsources\facebook\res\drawable\com_facebook_top_button.xml
+* libsources\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml
+* libsources\facebook\res\layout\
+* libsources\facebook\res\layout\com_facebook_friendpickerfragment.xml
+* libsources\facebook\res\layout\com_facebook_login_activity_layout.xml
+* libsources\facebook\res\layout\com_facebook_picker_activity_circle_row.xml
+* libsources\facebook\res\layout\com_facebook_picker_checkbox.xml
+* libsources\facebook\res\layout\com_facebook_picker_image.xml
+* libsources\facebook\res\layout\com_facebook_picker_list_row.xml
+* libsources\facebook\res\layout\com_facebook_picker_list_section_header.xml
+* libsources\facebook\res\layout\com_facebook_picker_search_box.xml
+* libsources\facebook\res\layout\com_facebook_picker_title_bar.xml
+* libsources\facebook\res\layout\com_facebook_picker_title_bar_stub.xml
+* libsources\facebook\res\layout\com_facebook_placepickerfragment.xml
+* libsources\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml
+* libsources\facebook\res\layout\com_facebook_usersettingsfragment.xml
+* libsources\facebook\res\values-es\
+* libsources\facebook\res\values-es\strings.xml
+* libsources\facebook\res\values-he\
+* libsources\facebook\res\values-he\strings.xml
+* libsources\facebook\res\values-iw\
+* libsources\facebook\res\values-iw\strings.xml
+* libsources\facebook\res\values\
+* libsources\facebook\res\values\attrs.xml
+* libsources\facebook\res\values\strings.xml
+* libsources\facebook\res\values\styles.xml
+* libsources\facebook\src\
+* libsources\facebook\src\com\
+* libsources\facebook\src\com\facebook\
+* libsources\facebook\src\com\facebook\AccessToken.java
+* libsources\facebook\src\com\facebook\AccessTokenSource.java
+* libsources\facebook\src\com\facebook\AuthorizationClient.java
+* libsources\facebook\src\com\facebook\FacebookAuthorizationException.java
+* libsources\facebook\src\com\facebook\FacebookDialogException.java
+* libsources\facebook\src\com\facebook\FacebookException.java
+* libsources\facebook\src\com\facebook\FacebookGraphObjectException.java
+* libsources\facebook\src\com\facebook\FacebookOperationCanceledException.java
+* libsources\facebook\src\com\facebook\FacebookRequestError.java
+* libsources\facebook\src\com\facebook\FacebookSdkVersion.java
+* libsources\facebook\src\com\facebook\FacebookServiceException.java
+* libsources\facebook\src\com\facebook\GetTokenClient.java
+* libsources\facebook\src\com\facebook\HttpMethod.java
+* libsources\facebook\src\com\facebook\LegacyHelper.java
+* libsources\facebook\src\com\facebook\LoggingBehavior.java
+* libsources\facebook\src\com\facebook\LoginActivity.java
+* libsources\facebook\src\com\facebook\NativeProtocol.java
+* libsources\facebook\src\com\facebook\NonCachingTokenCachingStrategy.java
+* libsources\facebook\src\com\facebook\Request.java
+* libsources\facebook\src\com\facebook\RequestAsyncTask.java
+* libsources\facebook\src\com\facebook\RequestBatch.java
+* libsources\facebook\src\com\facebook\Response.java
+* libsources\facebook\src\com\facebook\Session.java
+* libsources\facebook\src\com\facebook\SessionDefaultAudience.java
+* libsources\facebook\src\com\facebook\SessionLoginBehavior.java
+* libsources\facebook\src\com\facebook\SessionState.java
+* libsources\facebook\src\com\facebook\Settings.java
+* libsources\facebook\src\com\facebook\SharedPreferencesTokenCachingStrategy.java
+* libsources\facebook\src\com\facebook\TestSession.java
+* libsources\facebook\src\com\facebook\TokenCachingStrategy.java
+* libsources\facebook\src\com\facebook\UiLifecycleHelper.java
+* libsources\facebook\src\com\facebook\android\
+* libsources\facebook\src\com\facebook\android\AsyncFacebookRunner.java
+* libsources\facebook\src\com\facebook\android\DialogError.java
+* libsources\facebook\src\com\facebook\android\Facebook.java
+* libsources\facebook\src\com\facebook\android\FacebookError.java
+* libsources\facebook\src\com\facebook\android\FbDialog.java
+* libsources\facebook\src\com\facebook\android\Util.java
+* libsources\facebook\src\com\facebook\internal\
+* libsources\facebook\src\com\facebook\internal\CacheableRequestBatch.java
+* libsources\facebook\src\com\facebook\internal\FileLruCache.java
+* libsources\facebook\src\com\facebook\internal\Logger.java
+* libsources\facebook\src\com\facebook\internal\ServerProtocol.java
+* libsources\facebook\src\com\facebook\internal\SessionAuthorizationType.java
+* libsources\facebook\src\com\facebook\internal\SessionTracker.java
+* libsources\facebook\src\com\facebook\internal\Utility.java
+* libsources\facebook\src\com\facebook\internal\Validate.java
+* libsources\facebook\src\com\facebook\internal\package-info.java
+* libsources\facebook\src\com\facebook\model\
+* libsources\facebook\src\com\facebook\model\GraphLocation.java
+* libsources\facebook\src\com\facebook\model\GraphMultiResult.java
+* libsources\facebook\src\com\facebook\model\GraphObject.java
+* libsources\facebook\src\com\facebook\model\GraphObjectList.java
+* libsources\facebook\src\com\facebook\model\GraphPlace.java
+* libsources\facebook\src\com\facebook\model\GraphUser.java
+* libsources\facebook\src\com\facebook\model\JsonUtil.java
+* libsources\facebook\src\com\facebook\model\OpenGraphAction.java
+* libsources\facebook\src\com\facebook\model\PropertyName.java
+* libsources\facebook\src\com\facebook\widget\
+* libsources\facebook\src\com\facebook\widget\FacebookFragment.java
+* libsources\facebook\src\com\facebook\widget\FriendPickerFragment.java
+* libsources\facebook\src\com\facebook\widget\GraphObjectAdapter.java
+* libsources\facebook\src\com\facebook\widget\GraphObjectCursor.java
+* libsources\facebook\src\com\facebook\widget\GraphObjectPagingLoader.java
+* libsources\facebook\src\com\facebook\widget\ImageDownloader.java
+* libsources\facebook\src\com\facebook\widget\ImageRequest.java
+* libsources\facebook\src\com\facebook\widget\ImageResponse.java
+* libsources\facebook\src\com\facebook\widget\ImageResponseCache.java
+* libsources\facebook\src\com\facebook\widget\LoginButton.java
+* libsources\facebook\src\com\facebook\widget\PickerFragment.java
+* libsources\facebook\src\com\facebook\widget\PlacePickerFragment.java
+* libsources\facebook\src\com\facebook\widget\ProfilePictureView.java
+* libsources\facebook\src\com\facebook\widget\SimpleGraphObjectCursor.java
+* libsources\facebook\src\com\facebook\widget\UrlRedirectCache.java
+* libsources\facebook\src\com\facebook\widget\UserSettingsFragment.java
+* libsources\facebook\src\com\facebook\widget\WebDialog.java
+* libsources\facebook\src\com\facebook\widget\WorkQueue.java
+* libsources\google-play-services_lib\
+* libsources\google-play-services_lib\.classpath
+* libsources\google-play-services_lib\.project
+* libsources\google-play-services_lib\AndroidManifest.xml
+* libsources\google-play-services_lib\README.txt
+* libsources\google-play-services_lib\build.xml
+* libsources\google-play-services_lib\libs\
+* libsources\google-play-services_lib\libs\google-play-services.jar
+* libsources\google-play-services_lib\libs\google-play-services.jar.properties
+* libsources\google-play-services_lib\local.properties
+* libsources\google-play-services_lib\proguard.txt
+* libsources\google-play-services_lib\project.properties
+* libsources\google-play-services_lib\res\
+* libsources\google-play-services_lib\res\color\
+* libsources\google-play-services_lib\res\color\common_signin_btn_text_dark.xml
+* libsources\google-play-services_lib\res\color\common_signin_btn_text_light.xml
+* libsources\google-play-services_lib\res\color\wallet_primary_text_holo_light.xml
+* libsources\google-play-services_lib\res\color\wallet_secondary_text_holo_dark.xml
+* libsources\google-play-services_lib\res\drawable-hdpi\
+* libsources\google-play-services_lib\res\drawable-hdpi\common_full_open_on_phone.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_ic_googleplayservices.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-hdpi\ic_plusone_medium_off_client.png
+* libsources\google-play-services_lib\res\drawable-hdpi\ic_plusone_small_off_client.png
+* libsources\google-play-services_lib\res\drawable-hdpi\ic_plusone_standard_off_client.png
+* libsources\google-play-services_lib\res\drawable-hdpi\ic_plusone_tall_off_client.png
+* libsources\google-play-services_lib\res\drawable-hdpi\powered_by_google_dark.png
+* libsources\google-play-services_lib\res\drawable-hdpi\powered_by_google_light.png
+* libsources\google-play-services_lib\res\drawable-mdpi\
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-mdpi\ic_plusone_medium_off_client.png
+* libsources\google-play-services_lib\res\drawable-mdpi\ic_plusone_small_off_client.png
+* libsources\google-play-services_lib\res\drawable-mdpi\ic_plusone_standard_off_client.png
+* libsources\google-play-services_lib\res\drawable-mdpi\ic_plusone_tall_off_client.png
+* libsources\google-play-services_lib\res\drawable-mdpi\powered_by_google_dark.png
+* libsources\google-play-services_lib\res\drawable-mdpi\powered_by_google_light.png
+* libsources\google-play-services_lib\res\drawable-tvdpi\
+* libsources\google-play-services_lib\res\drawable-tvdpi\ic_plusone_medium_off_client.png
+* libsources\google-play-services_lib\res\drawable-tvdpi\ic_plusone_small_off_client.png
+* libsources\google-play-services_lib\res\drawable-tvdpi\ic_plusone_standard_off_client.png
+* libsources\google-play-services_lib\res\drawable-tvdpi\ic_plusone_tall_off_client.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\ic_plusone_medium_off_client.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\ic_plusone_small_off_client.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\ic_plusone_standard_off_client.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\ic_plusone_tall_off_client.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\powered_by_google_dark.png
+* libsources\google-play-services_lib\res\drawable-xhdpi\powered_by_google_light.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_icon_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_disabled_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_disabled_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_disabled_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_disabled_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_focus_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_focus_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_normal_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_normal_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_pressed_dark.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\common_signin_btn_text_pressed_light.9.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\ic_plusone_medium_off_client.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\ic_plusone_small_off_client.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\ic_plusone_standard_off_client.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\ic_plusone_tall_off_client.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\powered_by_google_dark.png
+* libsources\google-play-services_lib\res\drawable-xxhdpi\powered_by_google_light.png
+* libsources\google-play-services_lib\res\drawable\
+* libsources\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml
+* libsources\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml
+* libsources\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml
+* libsources\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml
+* libsources\google-play-services_lib\res\values-af\
+* libsources\google-play-services_lib\res\values-af\common_strings.xml
+* libsources\google-play-services_lib\res\values-am\
+* libsources\google-play-services_lib\res\values-am\common_strings.xml
+* libsources\google-play-services_lib\res\values-ar\
+* libsources\google-play-services_lib\res\values-ar\common_strings.xml
+* libsources\google-play-services_lib\res\values-be\
+* libsources\google-play-services_lib\res\values-be\common_strings.xml
+* libsources\google-play-services_lib\res\values-bg\
+* libsources\google-play-services_lib\res\values-bg\common_strings.xml
+* libsources\google-play-services_lib\res\values-bn-rBD\
+* libsources\google-play-services_lib\res\values-bn-rBD\common_strings.xml
+* libsources\google-play-services_lib\res\values-ca\
+* libsources\google-play-services_lib\res\values-ca\common_strings.xml
+* libsources\google-play-services_lib\res\values-cs\
+* libsources\google-play-services_lib\res\values-cs\common_strings.xml
+* libsources\google-play-services_lib\res\values-da\
+* libsources\google-play-services_lib\res\values-da\common_strings.xml
+* libsources\google-play-services_lib\res\values-de\
+* libsources\google-play-services_lib\res\values-de\common_strings.xml
+* libsources\google-play-services_lib\res\values-el\
+* libsources\google-play-services_lib\res\values-el\common_strings.xml
+* libsources\google-play-services_lib\res\values-en-rGB\
+* libsources\google-play-services_lib\res\values-en-rGB\common_strings.xml
+* libsources\google-play-services_lib\res\values-en-rIN\
+* libsources\google-play-services_lib\res\values-en-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-es-rUS\
+* libsources\google-play-services_lib\res\values-es-rUS\common_strings.xml
+* libsources\google-play-services_lib\res\values-es\
+* libsources\google-play-services_lib\res\values-es\common_strings.xml
+* libsources\google-play-services_lib\res\values-es\wallet_strings.xml
+* libsources\google-play-services_lib\res\values-et-rEE\
+* libsources\google-play-services_lib\res\values-et-rEE\common_strings.xml
+* libsources\google-play-services_lib\res\values-eu-rES\
+* libsources\google-play-services_lib\res\values-eu-rES\common_strings.xml
+* libsources\google-play-services_lib\res\values-fa\
+* libsources\google-play-services_lib\res\values-fa\common_strings.xml
+* libsources\google-play-services_lib\res\values-fi\
+* libsources\google-play-services_lib\res\values-fi\common_strings.xml
+* libsources\google-play-services_lib\res\values-fr-rCA\
+* libsources\google-play-services_lib\res\values-fr-rCA\common_strings.xml
+* libsources\google-play-services_lib\res\values-fr\
+* libsources\google-play-services_lib\res\values-fr\common_strings.xml
+* libsources\google-play-services_lib\res\values-gl-rES\
+* libsources\google-play-services_lib\res\values-gl-rES\common_strings.xml
+* libsources\google-play-services_lib\res\values-hi\
+* libsources\google-play-services_lib\res\values-hi\common_strings.xml
+* libsources\google-play-services_lib\res\values-hr\
+* libsources\google-play-services_lib\res\values-hr\common_strings.xml
+* libsources\google-play-services_lib\res\values-hu\
+* libsources\google-play-services_lib\res\values-hu\common_strings.xml
+* libsources\google-play-services_lib\res\values-hy-rAM\
+* libsources\google-play-services_lib\res\values-hy-rAM\common_strings.xml
+* libsources\google-play-services_lib\res\values-in\
+* libsources\google-play-services_lib\res\values-in\common_strings.xml
+* libsources\google-play-services_lib\res\values-is-rIS\
+* libsources\google-play-services_lib\res\values-is-rIS\common_strings.xml
+* libsources\google-play-services_lib\res\values-it\
+* libsources\google-play-services_lib\res\values-it\common_strings.xml
+* libsources\google-play-services_lib\res\values-iw\
+* libsources\google-play-services_lib\res\values-iw\common_strings.xml
+* libsources\google-play-services_lib\res\values-ja\
+* libsources\google-play-services_lib\res\values-ja\common_strings.xml
+* libsources\google-play-services_lib\res\values-ka-rGE\
+* libsources\google-play-services_lib\res\values-ka-rGE\common_strings.xml
+* libsources\google-play-services_lib\res\values-kk-rKZ\
+* libsources\google-play-services_lib\res\values-kk-rKZ\common_strings.xml
+* libsources\google-play-services_lib\res\values-km-rKH\
+* libsources\google-play-services_lib\res\values-km-rKH\common_strings.xml
+* libsources\google-play-services_lib\res\values-kn-rIN\
+* libsources\google-play-services_lib\res\values-kn-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-ko\
+* libsources\google-play-services_lib\res\values-ko\common_strings.xml
+* libsources\google-play-services_lib\res\values-ky-rKG\
+* libsources\google-play-services_lib\res\values-ky-rKG\common_strings.xml
+* libsources\google-play-services_lib\res\values-lo-rLA\
+* libsources\google-play-services_lib\res\values-lo-rLA\common_strings.xml
+* libsources\google-play-services_lib\res\values-lt\
+* libsources\google-play-services_lib\res\values-lt\common_strings.xml
+* libsources\google-play-services_lib\res\values-lv\
+* libsources\google-play-services_lib\res\values-lv\common_strings.xml
+* libsources\google-play-services_lib\res\values-mk-rMK\
+* libsources\google-play-services_lib\res\values-mk-rMK\common_strings.xml
+* libsources\google-play-services_lib\res\values-ml-rIN\
+* libsources\google-play-services_lib\res\values-ml-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-mn-rMN\
+* libsources\google-play-services_lib\res\values-mn-rMN\common_strings.xml
+* libsources\google-play-services_lib\res\values-mr-rIN\
+* libsources\google-play-services_lib\res\values-mr-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-ms-rMY\
+* libsources\google-play-services_lib\res\values-ms-rMY\common_strings.xml
+* libsources\google-play-services_lib\res\values-my-rMM\
+* libsources\google-play-services_lib\res\values-my-rMM\common_strings.xml
+* libsources\google-play-services_lib\res\values-nb\
+* libsources\google-play-services_lib\res\values-nb\common_strings.xml
+* libsources\google-play-services_lib\res\values-ne-rNP\
+* libsources\google-play-services_lib\res\values-ne-rNP\common_strings.xml
+* libsources\google-play-services_lib\res\values-nl\
+* libsources\google-play-services_lib\res\values-nl\common_strings.xml
+* libsources\google-play-services_lib\res\values-pl\
+* libsources\google-play-services_lib\res\values-pl\common_strings.xml
+* libsources\google-play-services_lib\res\values-pt-rBR\
+* libsources\google-play-services_lib\res\values-pt-rBR\common_strings.xml
+* libsources\google-play-services_lib\res\values-pt-rPT\
+* libsources\google-play-services_lib\res\values-pt-rPT\common_strings.xml
+* libsources\google-play-services_lib\res\values-pt\
+* libsources\google-play-services_lib\res\values-pt\common_strings.xml
+* libsources\google-play-services_lib\res\values-ro\
+* libsources\google-play-services_lib\res\values-ro\common_strings.xml
+* libsources\google-play-services_lib\res\values-ru\
+* libsources\google-play-services_lib\res\values-ru\common_strings.xml
+* libsources\google-play-services_lib\res\values-si-rLK\
+* libsources\google-play-services_lib\res\values-si-rLK\common_strings.xml
+* libsources\google-play-services_lib\res\values-sk\
+* libsources\google-play-services_lib\res\values-sk\common_strings.xml
+* libsources\google-play-services_lib\res\values-sl\
+* libsources\google-play-services_lib\res\values-sl\common_strings.xml
+* libsources\google-play-services_lib\res\values-sr\
+* libsources\google-play-services_lib\res\values-sr\common_strings.xml
+* libsources\google-play-services_lib\res\values-sv\
+* libsources\google-play-services_lib\res\values-sv\common_strings.xml
+* libsources\google-play-services_lib\res\values-sw\
+* libsources\google-play-services_lib\res\values-sw\common_strings.xml
+* libsources\google-play-services_lib\res\values-ta-rIN\
+* libsources\google-play-services_lib\res\values-ta-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-te-rIN\
+* libsources\google-play-services_lib\res\values-te-rIN\common_strings.xml
+* libsources\google-play-services_lib\res\values-th\
+* libsources\google-play-services_lib\res\values-th\common_strings.xml
+* libsources\google-play-services_lib\res\values-tl\
+* libsources\google-play-services_lib\res\values-tl\common_strings.xml
+* libsources\google-play-services_lib\res\values-tr\
+* libsources\google-play-services_lib\res\values-tr\common_strings.xml
+* libsources\google-play-services_lib\res\values-uk\
+* libsources\google-play-services_lib\res\values-uk\common_strings.xml
+* libsources\google-play-services_lib\res\values-ur-rPK\
+* libsources\google-play-services_lib\res\values-ur-rPK\common_strings.xml
+* libsources\google-play-services_lib\res\values-uz-rUZ\
+* libsources\google-play-services_lib\res\values-uz-rUZ\common_strings.xml
+* libsources\google-play-services_lib\res\values-vi\
+* libsources\google-play-services_lib\res\values-vi\common_strings.xml
+* libsources\google-play-services_lib\res\values-zh-rCN\
+* libsources\google-play-services_lib\res\values-zh-rCN\common_strings.xml
+* libsources\google-play-services_lib\res\values-zh-rHK\
+* libsources\google-play-services_lib\res\values-zh-rHK\common_strings.xml
+* libsources\google-play-services_lib\res\values-zh-rTW\
+* libsources\google-play-services_lib\res\values-zh-rTW\common_strings.xml
+* libsources\google-play-services_lib\res\values-zu\
+* libsources\google-play-services_lib\res\values-zu\common_strings.xml
+* libsources\google-play-services_lib\res\values\
+* libsources\google-play-services_lib\res\values\admob_ads_attrs.xml
+* libsources\google-play-services_lib\res\values\admob_iap_style.xml
+* libsources\google-play-services_lib\res\values\admob_strings.xml
+* libsources\google-play-services_lib\res\values\common_colors.xml
+* libsources\google-play-services_lib\res\values\common_strings.xml
+* libsources\google-play-services_lib\res\values\maps_attrs.xml
+* libsources\google-play-services_lib\res\values\version.xml
+* libsources\google-play-services_lib\res\values\wallet_attrs.xml
+* libsources\google-play-services_lib\res\values\wallet_colors.xml
+* libsources\google-play-services_lib\res\values\wallet_strings.xml
+* libsources\google-play-services_lib\res\values\wallet_styles.xml
+* libsources\google-play-services_lib\src\
+* libsources\google-play-services_lib\src\android\
+* libsources\google-play-services_lib\src\android\UnusedStub.java
+* libsources\knx-arise-android\
+* libsources\knx-arise-android\.classpath
+* libsources\knx-arise-android\.project
+* libsources\knx-arise-android\.settings\
+* libsources\knx-arise-android\.settings\org.eclipse.jdt.core.prefs
+* libsources\knx-arise-android\AndroidManifest.xml
+* libsources\knx-arise-android\build.xml
+* libsources\knx-arise-android\ic_launcher-web.png
+* libsources\knx-arise-android\libs\
+* libsources\knx-arise-android\libs\MIMAS.h
+* libsources\knx-arise-android\libs\PluginFrameBuffer.h
+* libsources\knx-arise-android\libs\YouTubeAndroidPlayerApi.jar
+* libsources\knx-arise-android\libs\android-support-v4.jar
+* libsources\knx-arise-android\libs\armeabi-v7a\
+* libsources\knx-arise-android\libs\armeabi-v7a\libSnap2Tell.so
+* libsources\knx-arise-android\libs\armeabi-v7a\libgdx.so
+* libsources\knx-arise-android\libs\armeabi-v7a\libmupdf.so
+* libsources\knx-arise-android\libs\armeabi-v7a\libopencv_java.so
+* libsources\knx-arise-android\libs\armeabi\
+* libsources\knx-arise-android\libs\armeabi\libSnap2Tell.so
+* libsources\knx-arise-android\libs\armeabi\libgdx.so
+* libsources\knx-arise-android\libs\armeabi\libmupdf.so
+* libsources\knx-arise-android\libs\armeabi\libopencv_java.so
+* libsources\knx-arise-android\libs\gdx-backend-android.jar
+* libsources\knx-arise-android\libs\gdx.jar
+* libsources\knx-arise-android\libs\gpuimage-cyberagent.jar
+* libsources\knx-arise-android\libs\javagnutar.jar
+* libsources\knx-arise-android\libs\mimas_sdk.jar
+* libsources\knx-arise-android\libs\x86\
+* libsources\knx-arise-android\libs\x86\libSnap2Tell.so
+* libsources\knx-arise-android\libs\x86\libgdx.so
+* libsources\knx-arise-android\libs\x86\libmupdf.so
+* libsources\knx-arise-android\libs\x86\libopencv_java.so
+* libsources\knx-arise-android\lint.xml
+* libsources\knx-arise-android\proguard-project.txt
+* libsources\knx-arise-android\project.properties
+* libsources\knx-arise-android\res\
+* libsources\knx-arise-android\res\anim\
+* libsources\knx-arise-android\res\anim\info.xml
+* libsources\knx-arise-android\res\anim\intent_fade_in.xml
+* libsources\knx-arise-android\res\anim\intent_fade_out.xml
+* libsources\knx-arise-android\res\anim\rotation.xml
+* libsources\knx-arise-android\res\anim\slide_down.xml
+* libsources\knx-arise-android\res\anim\slide_up.xml
+* libsources\knx-arise-android\res\anim\zoom_in.xml
+* libsources\knx-arise-android\res\animator\
+* libsources\knx-arise-android\res\animator\info.xml
+* libsources\knx-arise-android\res\drawable-mdpi\
+* libsources\knx-arise-android\res\drawable-mdpi\ic_mark_no.png
+* libsources\knx-arise-android\res\drawable-mdpi\ic_mark_yes.png
+* libsources\knx-arise-android\res\drawable-xhdpi\
+* libsources\knx-arise-android\res\drawable-xhdpi\arise_bookmark.png
+* libsources\knx-arise-android\res\drawable-xhdpi\arise_done.png
+* libsources\knx-arise-android\res\drawable-xhdpi\backward_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\camera_indicator.png
+* libsources\knx-arise-android\res\drawable-xhdpi\circular_button_with_border.xml
+* libsources\knx-arise-android\res\drawable-xhdpi\close_button_red.png
+* libsources\knx-arise-android\res\drawable-xhdpi\close_button_white.png
+* libsources\knx-arise-android\res\drawable-xhdpi\exit_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\forward_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\fullscreen_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\go_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\history_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\menu_panel.png
+* libsources\knx-arise-android\res\drawable-xhdpi\no_image.png
+* libsources\knx-arise-android\res\drawable-xhdpi\page_slider_icon.png
+* libsources\knx-arise-android\res\drawable-xhdpi\play_button.png
+* libsources\knx-arise-android\res\drawable-xhdpi\recording_indicator.png
+* libsources\knx-arise-android\res\drawable-xhdpi\setting_button.png
+* libsources\knx-arise-android\res\drawable\
+* libsources\knx-arise-android\res\drawable\busy.xml
+* libsources\knx-arise-android\res\drawable\button.xml
+* libsources\knx-arise-android\res\drawable\page_num.xml
+* libsources\knx-arise-android\res\layout\
+* libsources\knx-arise-android\res\layout\arise_activity_history.xml
+* libsources\knx-arise-android\res\layout\arise_activity_setting.xml
+* libsources\knx-arise-android\res\layout\arise_pdf_reader_activity.xml
+* libsources\knx-arise-android\res\layout\arise_pdf_reader_preview_row.xml
+* libsources\knx-arise-android\res\layout\camera_tooltip.xml
+* libsources\knx-arise-android\res\layout\camera_ui_layout.xml
+* libsources\knx-arise-android\res\layout\card_row.xml
+* libsources\knx-arise-android\res\layout\dialog_card_layout.xml
+* libsources\knx-arise-android\res\layout\dialog_one_button.xml
+* libsources\knx-arise-android\res\layout\dialog_two_buttons.xml
+* libsources\knx-arise-android\res\layout\history_fragment.xml
+* libsources\knx-arise-android\res\layout\history_row.xml
+* libsources\knx-arise-android\res\layout\history_static_layer.xml
+* libsources\knx-arise-android\res\layout\multi_ar_layout.xml
+* libsources\knx-arise-android\res\layout\outline_entry.xml
+* libsources\knx-arise-android\res\layout\popup_instruction.xml
+* libsources\knx-arise-android\res\layout\product_card_layout.xml
+* libsources\knx-arise-android\res\layout\setting_entry_background.xml
+* libsources\knx-arise-android\res\layout\setting_guide_image.xml
+* libsources\knx-arise-android\res\layout\static_layer_layout.xml
+* libsources\knx-arise-android\res\layout\textentry.xml
+* libsources\knx-arise-android\res\layout\videoplayer_mp4.xml
+* libsources\knx-arise-android\res\layout\videoplayer_youtube.xml
+* libsources\knx-arise-android\res\layout\web_activity_arise.xml
+* libsources\knx-arise-android\res\menu\
+* libsources\knx-arise-android\res\menu\history_menu.xml
+* libsources\knx-arise-android\res\menu\test.xml
+* libsources\knx-arise-android\res\raw\
+* libsources\knx-arise-android\res\raw\per_pixel_fragment_shader
+* libsources\knx-arise-android\res\raw\per_pixel_vertex_shader
+* libsources\knx-arise-android\res\raw\video_display_fragment_shader
+* libsources\knx-arise-android\res\raw\video_display_vertex_shader
+* libsources\knx-arise-android\res\values-sw600dp\
+* libsources\knx-arise-android\res\values-sw600dp\dimens.xml
+* libsources\knx-arise-android\res\values-sw720dp-land\
+* libsources\knx-arise-android\res\values-sw720dp-land\dimens.xml
+* libsources\knx-arise-android\res\values-th\
+* libsources\knx-arise-android\res\values-th\strings.xml
+* libsources\knx-arise-android\res\values-v11\
+* libsources\knx-arise-android\res\values-v11\styles.xml
+* libsources\knx-arise-android\res\values-v14\
+* libsources\knx-arise-android\res\values-v14\styles.xml
+* libsources\knx-arise-android\res\values-vi\
+* libsources\knx-arise-android\res\values-vi\strings.xml
+* libsources\knx-arise-android\res\values-zh-rCN\
+* libsources\knx-arise-android\res\values-zh-rCN\strings.xml
+* libsources\knx-arise-android\res\values-zh-rTW\
+* libsources\knx-arise-android\res\values-zh-rTW\strings.xml
+* libsources\knx-arise-android\res\values\
+* libsources\knx-arise-android\res\values\attrs.xml
+* libsources\knx-arise-android\res\values\colors.xml
+* libsources\knx-arise-android\res\values\dimens.xml
+* libsources\knx-arise-android\res\values\strings.xml
+* libsources\knx-arise-android\res\values\styles.xml
+* libsources\knx-arise-android\src\
+* libsources\knx-arise-android\src\com\
+* libsources\knx-arise-android\src\com\artifex\
+* libsources\knx-arise-android\src\com\artifex\mupdflib\
+* libsources\knx-arise-android\src\com\artifex\mupdflib\Annotation.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\ArrayDeque.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\AsyncTask.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\CallbackApplication.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\CancellableAsyncTask.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\CancellableTaskDefinition.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\Deque.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\FilePicker.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\Hit.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LibraryUtils.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LinkInfo.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LinkInfoExternal.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LinkInfoInternal.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LinkInfoRemote.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\LinkInfoVisitor.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MD5.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFAlert.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFAlertInternal.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFCancellableTaskDefinition.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFCore.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFPageAdapter.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFPageView.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFReaderView.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\MuPDFView.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\OutlineItem.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\PageView.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\ReaderView.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\SafeAnimatorInflater.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\SafeAsyncTask.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\SearchTask.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\SearchTaskResult.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\Stepper.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\StorageUtils.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\TextChar.java
+* libsources\knx-arise-android\src\com\artifex\mupdflib\TextWord.java
+* libsources\knx-arise-android\src\com\knx\
+* libsources\knx-arise-android\src\com\knx\framework\
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\GestureListener.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\OverlayDataManager.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\StaticDataManager.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\CapturedImage.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\FileCache.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\InteractiveContentView.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\MemoryCache.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\Static3DModel.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\old\Static3DModelData.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\MyGLRenderer.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\MyGLSurfaceView.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\Overlay3DModel.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\Overlay3DModelData.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\OverlayPlayButton.java
+* libsources\knx-arise-android\src\com\knx\framework\arcontents\overlay\OverlayVideo.java
+* libsources\knx-arise-android\src\com\knx\framework\arise\
+* libsources\knx-arise-android\src\com\knx\framework\arise\ARiseHelpMethods.java
+* libsources\knx-arise-android\src\com\knx\framework\camera\
+* libsources\knx-arise-android\src\com\knx\framework\camera\CameraPreview.java
+* libsources\knx-arise-android\src\com\knx\framework\camera\CameraPreviewHandler.java
+* libsources\knx-arise-android\src\com\knx\framework\camera\CameraTexture.java
+* libsources\knx-arise-android\src\com\knx\framework\camera\DefaultCameraInitializer.java
+* libsources\knx-arise-android\src\com\knx\framework\camera\ICameraInitializer.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\
+* libsources\knx-arise-android\src\com\knx\framework\helper\ARiseConfigs.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\ARiseTracking.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\DeviceUUIDFactory.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\GPSTracker.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\HttpClient.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\ImageDownloader.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\LangPref.java
+* libsources\knx-arise-android\src\com\knx\framework\helper\MyWebViewClient.java
+* libsources\knx-arise-android\src\com\knx\framework\main\
+* libsources\knx-arise-android\src\com\knx\framework\main\CameraActivity.java
+* libsources\knx-arise-android\src\com\knx\framework\main\CameraActivityUI.java
+* libsources\knx-arise-android\src\com\knx\framework\main\IOverlayLayerParent.java
+* libsources\knx-arise-android\src\com\knx\framework\main\IStaticLayerParent.java
+* libsources\knx-arise-android\src\com\knx\framework\main\LocalTrackingManager.java
+* libsources\knx-arise-android\src\com\knx\framework\main\MultiARView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\RecognitionTokenGenerator.java
+* libsources\knx-arise-android\src\com\knx\framework\main\Shared.java
+* libsources\knx-arise-android\src\com\knx\framework\main\WebActivity.java
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\ARiseCameraIndicator.java
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\ARiseCameraTooltip.java
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\FlatCircularButton.java
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\NonInteractableView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\cameraUI\RoundedCornerView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\history\
+* libsources\knx-arise-android\src\com\knx\framework\main\history\HistoryFragment.java
+* libsources\knx-arise-android\src\com\knx\framework\main\history\HistoryPage.java
+* libsources\knx-arise-android\src\com\knx\framework\main\history\HistoryStaticLayer.java
+* libsources\knx-arise-android\src\com\knx\framework\main\history\HistoryThumbnailImageView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\history\HistoryThumbnailLoader.java
+* libsources\knx-arise-android\src\com\knx\framework\main\pdfreader\
+* libsources\knx-arise-android\src\com\knx\framework\main\pdfreader\ARisePdfReaderActivity.java
+* libsources\knx-arise-android\src\com\knx\framework\main\pdfreader\ARisePdfReaderView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\setting\
+* libsources\knx-arise-android\src\com\knx\framework\main\setting\AboutView.java
+* libsources\knx-arise-android\src\com\knx\framework\main\setting\GuideImageLayout.java
+* libsources\knx-arise-android\src\com\knx\framework\main\setting\SettingPage.java
+* libsources\knx-arise-android\src\com\knx\framework\main\setting\SettingPageButton.java
+* libsources\knx-arise-android\src\com\knx\framework\task\
+* libsources\knx-arise-android\src\com\knx\framework\task\AddHistory.java
+* libsources\knx-arise-android\src\com\knx\framework\task\DbHelper.java
+* libsources\knx-arise-android\src\com\knx\framework\task\Download3DModelPackage.java
+* libsources\knx-arise-android\src\com\knx\framework\task\DownloadAssetImage.java
+* libsources\knx-arise-android\src\com\knx\framework\task\DownloadBackgroundImage.java
+* libsources\knx-arise-android\src\com\knx\framework\task\DownloadPoster.java
+* libsources\knx-arise-android\src\com\knx\framework\task\QueryImage.java
+* libsources\knx-arise-android\src\com\knx\framework\task\RecognitionSpeedLog.java
+* libsources\knx-arise-android\src\com\knx\framework\ui\
+* libsources\knx-arise-android\src\com\knx\framework\ui\ARiseCheckbox.java
+* libsources\knx-arise-android\src\com\knx\framework\ui\ARiseDialogOneButton.java
+* libsources\knx-arise-android\src\com\knx\framework\ui\ARiseDialogTwoButton.java
+* libsources\knx-arise-android\src\com\knx\framework\utils\
+* libsources\knx-arise-android\src\com\knx\framework\utils\ARiseGLUtils.java
+* libsources\knx-arise-android\src\com\knx\framework\utils\ARiseMathUtils.java
+* libsources\knx-arise-android\src\com\knx\framework\utils\ARiseUtils.java
+* libsources\knx-arise-android\src\com\knx\framework\videoplayer\
+* libsources\knx-arise-android\src\com\knx\framework\videoplayer\MP4VideoPlayer.java
+* libsources\knx-arise-android\src\com\knx\framework\videoplayer\YouTubeFailureRecoveryActivity.java
+* libsources\knx-arise-android\src\com\knx\framework\videoplayer\YouTubeVideoPlayer.java
+* libsources\pulltorefresh\
+* libsources\pulltorefresh\.classpath
+* libsources\pulltorefresh\.project
+* libsources\pulltorefresh\AndroidManifest.xml
+* libsources\pulltorefresh\bin\
+* libsources\pulltorefresh\bin\thanhniennewslib_pulltorefresh.jar
+* libsources\pulltorefresh\build.xml
+* libsources\pulltorefresh\local.properties
+* libsources\pulltorefresh\project.properties
+* libsources\pulltorefresh\res\
+* libsources\pulltorefresh\res\anim\
+* libsources\pulltorefresh\res\anim\slide_in_from_bottom.xml
+* libsources\pulltorefresh\res\anim\slide_in_from_top.xml
+* libsources\pulltorefresh\res\anim\slide_out_to_bottom.xml
+* libsources\pulltorefresh\res\anim\slide_out_to_top.xml
+* libsources\pulltorefresh\res\drawable-hdpi\
+* libsources\pulltorefresh\res\drawable-hdpi\default_ptr_flip.png
+* libsources\pulltorefresh\res\drawable-hdpi\default_ptr_rotate.png
+* libsources\pulltorefresh\res\drawable-hdpi\indicator_arrow.png
+* libsources\pulltorefresh\res\drawable-mdpi\
+* libsources\pulltorefresh\res\drawable-mdpi\default_ptr_flip.png
+* libsources\pulltorefresh\res\drawable-mdpi\default_ptr_rotate.png
+* libsources\pulltorefresh\res\drawable-mdpi\indicator_arrow.png
+* libsources\pulltorefresh\res\drawable-xhdpi\
+* libsources\pulltorefresh\res\drawable-xhdpi\default_ptr_flip.png
+* libsources\pulltorefresh\res\drawable-xhdpi\default_ptr_rotate.png
+* libsources\pulltorefresh\res\drawable-xhdpi\indicator_arrow.png
+* libsources\pulltorefresh\res\drawable\
+* libsources\pulltorefresh\res\drawable\indicator_bg_bottom.xml
+* libsources\pulltorefresh\res\drawable\indicator_bg_top.xml
+* libsources\pulltorefresh\res\layout\
+* libsources\pulltorefresh\res\layout\pull_to_refresh_header_horizontal.xml
+* libsources\pulltorefresh\res\layout\pull_to_refresh_header_vertical.xml
+* libsources\pulltorefresh\res\values-ar\
+* libsources\pulltorefresh\res\values-ar\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-cs\
+* libsources\pulltorefresh\res\values-cs\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-de\
+* libsources\pulltorefresh\res\values-de\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-es\
+* libsources\pulltorefresh\res\values-es\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-fi\
+* libsources\pulltorefresh\res\values-fi\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-fr\
+* libsources\pulltorefresh\res\values-fr\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-he\
+* libsources\pulltorefresh\res\values-he\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-it\
+* libsources\pulltorefresh\res\values-it\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-iw\
+* libsources\pulltorefresh\res\values-iw\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-ja\
+* libsources\pulltorefresh\res\values-ja\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-ko\
+* libsources\pulltorefresh\res\values-ko\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-nl\
+* libsources\pulltorefresh\res\values-nl\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-pl\
+* libsources\pulltorefresh\res\values-pl\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-pt-rBR\
+* libsources\pulltorefresh\res\values-pt-rBR\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-pt\
+* libsources\pulltorefresh\res\values-pt\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-ro\
+* libsources\pulltorefresh\res\values-ro\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-ru\
+* libsources\pulltorefresh\res\values-ru\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values-zh\
+* libsources\pulltorefresh\res\values-zh\pull_refresh_strings.xml
+* libsources\pulltorefresh\res\values\
+* libsources\pulltorefresh\res\values\attrs.xml
+* libsources\pulltorefresh\res\values\dimens.xml
+* libsources\pulltorefresh\res\values\ids.xml
+* libsources\pulltorefresh\res\values\pull_refresh_strings.xml
+* libsources\pulltorefresh\src\
+* libsources\pulltorefresh\src\com\
+* libsources\pulltorefresh\src\com\handmark\
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\ILoadingLayout.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\IPullToRefresh.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\LoadingLayoutProxy.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\OverscrollHelper.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshAdapterViewBase.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshBase.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshExpandableListView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshGridView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshHorizontalScrollView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshListView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshScrollView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\PullToRefreshWebView.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\extras\
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\extras\PullToRefreshWebView2.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\extras\SoundPullEventListener.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\EmptyViewMethodAccessor.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\FlipLoadingLayout.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\GKIMLog.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\IndicatorLayout.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\LoadingLayout.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\RotateLoadingLayout.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\Utils.java
+* libsources\pulltorefresh\src\com\handmark\pulltorefresh\library\internal\ViewCompat.java
+* quickbuild.bat
+* quickbuild.xml
+* thanhnien.keystore
+From ThanhNienNewslib_FaceBook:
+* ant.properties
+* build.xml
+From ThanhNienNewslib_pulltorefresh:
+* build.xml
+From knx-arise-android:
+* build.xml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.2.jar => com.google.code.gson:gson:2.2.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+ThanhNien_google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In ThanhNienNewslib_FaceBook:
+* AndroidManifest.xml => thanhNienNewslib_FaceBook\src\main\AndroidManifest.xml
+* assets\ => thanhNienNewslib_FaceBook\src\main\assets
+* res\ => thanhNienNewslib_FaceBook\src\main\res\
+* src\ => thanhNienNewslib_FaceBook\src\main\java\
+In ThanhNienNewslib_pulltorefresh:
+* AndroidManifest.xml => thanhNienNewslib_pulltorefresh\src\main\AndroidManifest.xml
+* assets\ => thanhNienNewslib_pulltorefresh\src\main\assets
+* res\ => thanhNienNewslib_pulltorefresh\src\main\res\
+* src\ => thanhNienNewslib_pulltorefresh\src\main\java\
+In knx-arise-android:
+* AndroidManifest.xml => knxariseandroid\src\main\AndroidManifest.xml
+* assets\ => knxariseandroid\src\main\assets
+* libs\armeabi-v7a\libgdx.so => knxariseandroid\src\main\jniLibs\armeabi-v7a\libgdx.so
+* libs\armeabi-v7a\libmupdf.so => knxariseandroid\src\main\jniLibs\armeabi-v7a\libmupdf.so
+* libs\armeabi-v7a\libopencv_java.so => knxariseandroid\src\main\jniLibs\armeabi-v7a\libopencv_java.so
+* libs\armeabi-v7a\libSnap2Tell.so => knxariseandroid\src\main\jniLibs\armeabi-v7a\libSnap2Tell.so
+* libs\armeabi\libgdx.so => knxariseandroid\src\main\jniLibs\armeabi\libgdx.so
+* libs\armeabi\libmupdf.so => knxariseandroid\src\main\jniLibs\armeabi\libmupdf.so
+* libs\armeabi\libopencv_java.so => knxariseandroid\src\main\jniLibs\armeabi\libopencv_java.so
+* libs\armeabi\libSnap2Tell.so => knxariseandroid\src\main\jniLibs\armeabi\libSnap2Tell.so
+* libs\gdx-backend-android.jar => knxariseandroid\libs\gdx-backend-android.jar
+* libs\gdx.jar => knxariseandroid\libs\gdx.jar
+* libs\gpuimage-cyberagent.jar => knxariseandroid\libs\gpuimage-cyberagent.jar
+* libs\javagnutar.jar => knxariseandroid\libs\javagnutar.jar
+* libs\mimas_sdk.jar => knxariseandroid\libs\mimas_sdk.jar
+* libs\x86\libgdx.so => knxariseandroid\src\main\jniLibs\x86\libgdx.so
+* libs\x86\libmupdf.so => knxariseandroid\src\main\jniLibs\x86\libmupdf.so
+* libs\x86\libopencv_java.so => knxariseandroid\src\main\jniLibs\x86\libopencv_java.so
+* libs\x86\libSnap2Tell.so => knxariseandroid\src\main\jniLibs\x86\libSnap2Tell.so
+* libs\YouTubeAndroidPlayerApi.jar => knxariseandroid\libs\YouTubeAndroidPlayerApi.jar
+* lint.xml => knxariseandroid\lint.xml
+* res\ => knxariseandroid\src\main\res\
+* src\ => knxariseandroid\src\main\java\
+In ThanhNienNews:
+* AndroidManifest.xml => thanhNienNews\src\main\AndroidManifest.xml
+* assets\ => thanhNienNews\src\main\assets\
+* libs\android-async-http-1.4.4.jar => thanhNienNews\libs\android-async-http-1.4.4.jar
+* libs\twitter4j-core-3.0.5.jar => thanhNienNews\libs\twitter4j-core-3.0.5.jar
+* libs\twitter4j-media-support-3.0.5.jar => thanhNienNews\libs\twitter4j-media-support-3.0.5.jar
+* libs\twitter4j-stream-3.0.5.jar => thanhNienNews\libs\twitter4j-stream-3.0.5.jar
+* libs\universal-image-loader-1.9.0.jar => thanhNienNews\libs\universal-image-loader-1.9.0.jar
+* libs\xtify-android-sdk-2.5.0.jar => thanhNienNews\libs\xtify-android-sdk-2.5.0.jar
+* proguard-project.txt => thanhNienNews\proguard-project.txt
+* res\ => thanhNienNews\src\main\res\
+* src\ => thanhNienNews\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

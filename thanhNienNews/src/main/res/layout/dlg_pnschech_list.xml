@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog_login"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dlg_pnscheck_title_marginbottom"
+    android:paddingLeft="@dimen/dlg_pnscheck_marginleft"
+    android:paddingRight="@dimen/dlg_pnscheck_marginleft"
+    android:paddingTop="@dimen/dlg_pnscheck_title_marginbottom" xmlns:app="http://schemas.android.com/apk/res/com.gkim.android.thanhniennews">
+
+    <TextView
+        android:id="@+id/tv_pnscheck_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dlg_pnscheck_title_marginbottom"
+        android:gravity="center_horizontal"
+        android:text="@string/dlg_pnscheck_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dlg_pnscheck_title_textsize" />
+
+    <ListView
+        android:id="@+id/lv_pnscheck_list"
+        android:layout_width="@dimen/dlg_pnscheck_list_width"
+        android:layout_height="@dimen/dlg_pnscheck_list_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:choiceMode="multipleChoice"
+        android:divider="@null"
+        android:layout_weight="1"
+        android:scrollingCache="false" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_pnscheck_selectall"
+        android:layout_width="@dimen/dlg_pnscheck_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dlg_pnscheck_cfi_marginbottom"
+        android:background="@drawable/bg_menu_setting_popup_button"
+        android:minHeight="40dp"
+        android:text="@string/dlg_pnscheck_title_selectall"
+        android:textColor="@color/menu_list_item_text"
+        android:textSize="@dimen/dlg_pnscheck_title_textsize" />
+
+    <Button
+        android:id="@+id/btn_pnscheck_agree"
+        android:layout_width="@dimen/dlg_pnscheck_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/menu_header_padding_top"
+        android:background="@drawable/bg_menu_setting_popup_button"
+        android:minHeight="40dp"
+        android:text="@string/dlg_pnscheck_title_agree"
+        android:textColor="@color/menu_list_item_text"
+        android:textSize="@dimen/dlg_pnscheck_title_textsize" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/clear_all"
+          android:title="Clear all" />
+</menu><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/menu/history_menu.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/build/intermediates/bundles/debug/res/menu/history_menu.xml -->

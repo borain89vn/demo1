@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guideImageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+</ImageView>
+<!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/src/main/res/layout/setting_guide_image.xml --><!-- From: file:/E:/ThanhNiewNewsXuan-AS/knxariseandroid/build/intermediates/bundles/debug/res/layout/setting_guide_image.xml -->
