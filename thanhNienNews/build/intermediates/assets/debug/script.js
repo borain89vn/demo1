@@ -1,1 +1,0 @@
-function changetextmode(bg, col) {document.body.style.backgroundColor = bg;document.body.style.color = col;} function changetextsize(binc) {old = document.body.style.fontSize;  if (binc) {document.body.style.fontSize = old + 5;}else{document.body.style.fontSize = old - 5;}}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" >
-	<solid android:color="#cdced0"/>
-	<corners android:radius="3dp"/>
-</shape><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/drawable/line_storydetail_title.xml -->

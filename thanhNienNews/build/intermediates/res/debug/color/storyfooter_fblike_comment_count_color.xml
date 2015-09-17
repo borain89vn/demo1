@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true" android:color="@color/storyfooter_addcomment_count_textcolor"/>
-    <item android:state_pressed="true" android:color="@color/storyfooter_addcomment_count_textcolor"/>
-    <item android:color="#FF707070"/>
-</selector><!-- From: file:/E:/ThanhNiewNewsXuan-AS/thanhNienNews/src/main/res/color/storyfooter_fblike_comment_count_color.xml -->
